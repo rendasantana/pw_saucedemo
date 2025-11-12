@@ -1,0 +1,159 @@
+2025-11-12 16:42:19,076 [INFO] Navigasi ke halaman login
+2025-11-12 16:42:19,271 [INFO] Mengisi username dan password valid
+2025-11-12 16:42:19,276 [INFO] Login sukses divalidasi dengan URL inventory.html
+2025-11-12 16:42:19,971 [INFO] Navigasi ke halaman login
+2025-11-12 16:42:20,071 [INFO] Mengisi username tidak valid
+2025-11-12 16:42:20,076 [INFO] Pesan error tampil sesuai ekspektasi
+2025-11-12 16:42:20,700 [INFO] Navigasi ke halaman login
+2025-11-12 16:42:20,801 [INFO] Mengisi password tidak valid
+2025-11-12 16:42:20,804 [INFO] Pesan error tampil sesuai ekspektasi
+2025-11-12 16:42:29,469 [INFO] Navigasi ke halaman login
+2025-11-12 16:42:29,624 [INFO] Mengisi username dan password valid
+2025-11-12 16:42:29,628 [INFO] Login sukses divalidasi dengan URL inventory.html
+2025-11-12 16:42:30,273 [INFO] Navigasi ke halaman login
+2025-11-12 16:42:30,386 [INFO] Mengisi username tidak valid
+2025-11-12 16:42:30,390 [INFO] Pesan error tampil sesuai ekspektasi
+2025-11-12 16:42:30,991 [INFO] Navigasi ke halaman login
+2025-11-12 16:42:31,099 [INFO] Mengisi password tidak valid
+2025-11-12 16:42:31,102 [INFO] Pesan error tampil sesuai ekspektasi
+2025-11-12 16:55:46,538 [INFO] Navigasi ke halaman login
+2025-11-12 16:55:46,727 [INFO] Mengisi username dan password valid
+2025-11-12 16:55:46,731 [INFO] Login sukses divalidasi dengan URL inventory.html
+2025-11-12 16:55:47,434 [INFO] Navigasi ke halaman login
+2025-11-12 16:55:47,549 [INFO] Mengisi username tidak valid
+2025-11-12 16:55:47,553 [INFO] Pesan error tampil sesuai ekspektasi
+2025-11-12 16:55:48,156 [INFO] Navigasi ke halaman login
+2025-11-12 16:55:48,261 [INFO] Mengisi password tidak valid
+2025-11-12 16:55:48,264 [INFO] Pesan error tampil sesuai ekspektasi
+2025-11-12 18:03:55,983 [INFO] 🔹 Test login dengan: {'username': 'standard_user', 'password': 'secret_sauce', 'expected_result': 'success'}
+2025-11-12 18:03:56,921 [INFO] 🔹 Test login dengan: {'username': 'invalid_user', 'password': 'secret_sauce', 'expected_result': 'fail'}
+2025-11-12 18:03:57,643 [INFO] 🔹 Test login dengan: {'username': 'standard_user', 'password': 'wrong_pass', 'expected_result': 'fail'}
+2025-11-12 18:06:29,547 [INFO] 🔹 Test login dengan: {'username': 'standard_user', 'password': 'secret_sauce', 'expected_result': 'success'}
+2025-11-12 18:06:29,777 [INFO] ✅ Login berhasil seperti yang diharapkan.
+2025-11-12 18:06:30,532 [INFO] 🔹 Test login dengan: {'username': 'invalid_user', 'password': 'secret_sauce', 'expected_result': 'fail'}
+2025-11-12 18:06:30,658 [WARNING] ⚠️ Login gagal sesuai ekspektasi. Pesan: Epic sadface: Username and password do not match any user in this service
+2025-11-12 18:06:31,270 [INFO] 🔹 Test login dengan: {'username': 'standard_user', 'password': 'wrong_pass', 'expected_result': 'fail'}
+2025-11-12 18:06:31,391 [WARNING] ⚠️ Login gagal sesuai ekspektasi. Pesan: Epic sadface: Username and password do not match any user in this service
+2025-11-12 18:06:34,694 [INFO] 🔹 Test login dengan: {'username': 'standard_user', 'password': 'secret_sauce', 'expected_result': 'success'}
+2025-11-12 18:06:34,831 [INFO] ✅ Login berhasil seperti yang diharapkan.
+2025-11-12 18:06:35,486 [INFO] 🔹 Test login dengan: {'username': 'invalid_user', 'password': 'secret_sauce', 'expected_result': 'fail'}
+2025-11-12 18:06:35,604 [WARNING] ⚠️ Login gagal sesuai ekspektasi. Pesan: Epic sadface: Username and password do not match any user in this service
+2025-11-12 18:06:36,199 [INFO] 🔹 Test login dengan: {'username': 'standard_user', 'password': 'wrong_pass', 'expected_result': 'fail'}
+2025-11-12 18:06:36,318 [WARNING] ⚠️ Login gagal sesuai ekspektasi. Pesan: Epic sadface: Username and password do not match any user in this service
+2025-11-12 18:14:39,425 [INFO] 🧪 Testing login dengan: standard_user/secret_sauce (expected=success)
+2025-11-12 18:14:39,636 [INFO] ✅ Login sukses untuk user: standard_user
+2025-11-12 18:14:40,293 [INFO] 🧪 Testing login dengan: invalid_user/secret_sauce (expected=fail)
+2025-11-12 18:14:40,410 [INFO] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-12 18:14:41,043 [INFO] 🧪 Testing login dengan: standard_user/wrong_pass (expected=fail)
+2025-11-12 18:14:41,174 [INFO] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-12 18:19:53,467 [INFO] 🧪 Testing login dengan: standard_user/secret_sauce (expected=success)
+2025-11-12 18:19:53,669 [INFO] ✅ Login sukses untuk user: standard_user
+2025-11-12 18:19:54,344 [INFO] 🧪 Testing login dengan: invalid_user/secret_sauce (expected=fail)
+2025-11-12 18:19:54,459 [INFO] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-12 18:19:55,064 [INFO] 🧪 Testing login dengan: standard_user/wrong_pass (expected=fail)
+2025-11-12 18:19:55,186 [INFO] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-12 18:25:02,444 [INFO] 🧪 Testing login dengan: standard_user/secret_sauce (expected=success)
+2025-11-12 18:25:02,680 [INFO] ✅ Login sukses untuk user: standard_user
+2025-11-12 18:25:03,350 [INFO] 🧪 Testing login dengan: invalid_user/secret_sauce (expected=fail)
+2025-11-12 18:25:03,472 [INFO] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-12 18:25:04,037 [INFO] 🧪 Testing login dengan: standard_user/wrong_pass (expected=fail)
+2025-11-12 18:25:04,153 [INFO] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-12 18:32:26,810 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'secret_sauce', 'expected_result': 'success'}
+2025-11-12 18:32:28,100 [INFO] ✅ Login sukses untuk user: standard_user
+2025-11-12 18:32:28,100 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-12 18:32:28,475 [INFO] 🎥 Video tersimpan: reports/videos/2dcb0c55c3849b2fc5405a4d0ce12e7e.webm
+2025-11-12 18:32:28,833 [INFO] Memulai dummy test untuk chromium
+2025-11-12 18:32:31,961 [INFO] Menunggu sebentar agar video tidak kosong...
+2025-11-12 18:32:31,974 [INFO] ✅ Dummy video test sukses!
+2025-11-12 18:32:32,090 [INFO] 🎥 Video tersimpan: reports/videos/2dcb0c55c3849b2fc5405a4d0ce12e7e.webm
+2025-11-12 18:32:32,091 [INFO] 🎥 Video tersimpan: reports/videos/006b2e627e92caa1c62fba32cfe5257d.webm
+2025-11-12 18:32:32,333 [INFO] 🔹 Testing login dengan: {'username': 'invalid_user', 'password': 'secret_sauce', 'expected_result': 'fail'}
+2025-11-12 18:32:33,242 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-12 18:32:33,242 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-12 18:32:33,316 [INFO] 🎥 Video tersimpan: reports/videos/2dcb0c55c3849b2fc5405a4d0ce12e7e.webm
+2025-11-12 18:32:33,317 [INFO] 🎥 Video tersimpan: reports/videos/5c3842ec7d7a8675038fc0c1ec1f236a.webm
+2025-11-12 18:32:33,317 [INFO] 🎥 Video tersimpan: reports/videos/006b2e627e92caa1c62fba32cfe5257d.webm
+2025-11-12 18:32:33,566 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'wrong_pass', 'expected_result': 'fail'}
+2025-11-12 18:32:34,287 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-12 18:32:34,288 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-12 18:32:34,347 [INFO] 🎥 Video tersimpan: reports/videos/2dcb0c55c3849b2fc5405a4d0ce12e7e.webm
+2025-11-12 18:32:34,347 [INFO] 🎥 Video tersimpan: reports/videos/5c3842ec7d7a8675038fc0c1ec1f236a.webm
+2025-11-12 18:32:34,347 [INFO] 🎥 Video tersimpan: reports/videos/f34d7c7f550f90e52b8f2230ed207655.webm
+2025-11-12 18:32:34,347 [INFO] 🎥 Video tersimpan: reports/videos/006b2e627e92caa1c62fba32cfe5257d.webm
+2025-11-12 18:34:22,419 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'secret_sauce', 'expected_result': 'success'}
+2025-11-12 18:34:23,621 [INFO] ✅ Login sukses untuk user: standard_user
+2025-11-12 18:34:23,621 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-12 18:34:23,821 [WARNING] Gagal menutup context/video: 'str' object has no attribute 'exists'
+2025-11-12 18:34:24,499 [INFO] Memulai dummy test untuk chromium
+2025-11-12 18:34:27,109 [INFO] Menunggu sebentar agar video tidak kosong...
+2025-11-12 18:34:27,120 [INFO] ✅ Dummy video test sukses!
+2025-11-12 18:34:27,285 [WARNING] Gagal menutup context/video: 'str' object has no attribute 'exists'
+2025-11-12 18:34:27,515 [INFO] 🔹 Testing login dengan: {'username': 'invalid_user', 'password': 'secret_sauce', 'expected_result': 'fail'}
+2025-11-12 18:34:28,237 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-12 18:34:28,238 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-12 18:34:28,316 [WARNING] Gagal menutup context/video: 'str' object has no attribute 'exists'
+2025-11-12 18:34:28,565 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'wrong_pass', 'expected_result': 'fail'}
+2025-11-12 18:34:29,429 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-12 18:34:29,431 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-12 18:34:29,596 [WARNING] Gagal menutup context/video: 'str' object has no attribute 'exists'
+2025-11-12 18:39:59,256 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'secret_sauce', 'expected_result': 'success'}
+2025-11-12 18:40:01,004 [INFO] ✅ Login sukses untuk user: standard_user
+2025-11-12 18:40:01,005 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-12 18:40:01,163 [WARNING] Gagal menutup context/video: 'str' object has no attribute 'exists'
+2025-11-12 18:40:01,448 [INFO] Memulai dummy test untuk chromium
+2025-11-12 18:40:04,038 [INFO] Menunggu sebentar agar video tidak kosong...
+2025-11-12 18:40:04,047 [INFO] ✅ Dummy video test sukses!
+2025-11-12 18:40:04,174 [WARNING] Gagal menutup context/video: 'str' object has no attribute 'exists'
+2025-11-12 18:40:04,415 [INFO] 🔹 Testing login dengan: {'username': 'invalid_user', 'password': 'secret_sauce', 'expected_result': 'fail'}
+2025-11-12 18:40:05,086 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-12 18:40:05,086 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-12 18:40:05,146 [WARNING] Gagal menutup context/video: 'str' object has no attribute 'exists'
+2025-11-12 18:40:05,398 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'wrong_pass', 'expected_result': 'fail'}
+2025-11-12 18:40:06,068 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-12 18:40:06,068 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-12 18:40:06,132 [WARNING] Gagal menutup context/video: 'str' object has no attribute 'exists'
+2025-11-12 19:36:03,269 [INFO] 🔹 Navigasi ke halaman login
+2025-11-12 19:36:04,136 [INFO] ✅ Login berhasil, memverifikasi halaman inventory
+2025-11-12 19:36:04,139 [INFO] 🔹 Memeriksa elemen utama halaman
+2025-11-12 19:36:04,153 [INFO] 📦 Jumlah produk ditemukan: 6
+2025-11-12 19:36:04,153 [INFO] 🔹 Membuka detail produk pertama
+2025-11-12 19:36:04,256 [INFO] ✅ Detail produk berhasil dibuka dan tombol back terlihat
+2025-11-12 20:00:57,935 [INFO] 🔹 Navigasi ke halaman login
+2025-11-12 20:00:59,148 [INFO] ✅ Login berhasil, memverifikasi halaman inventory
+2025-11-12 20:00:59,154 [INFO] 🔹 Memeriksa elemen utama halaman
+2025-11-12 20:00:59,183 [INFO] 📦 Jumlah produk ditemukan: 6
+2025-11-12 20:00:59,184 [INFO] 🔹 Membuka detail produk pertama
+2025-11-12 20:00:59,275 [INFO] ✅ Detail produk berhasil dibuka dan tombol back terlihat
+2025-11-12 20:00:59,391 [WARNING] Gagal menutup context/video: 'str' object has no attribute 'exists'
+2025-11-12 20:01:06,234 [INFO] 🔹 Navigasi ke halaman login
+2025-11-12 20:01:07,629 [INFO] ✅ Login berhasil, memverifikasi halaman inventory
+2025-11-12 20:01:07,650 [INFO] 🔹 Memeriksa elemen utama halaman
+2025-11-12 20:01:07,669 [INFO] 📦 Jumlah produk ditemukan: 6
+2025-11-12 20:01:07,669 [INFO] 🔹 Membuka detail produk pertama
+2025-11-12 20:01:07,775 [INFO] ✅ Detail produk berhasil dibuka dan tombol back terlihat
+2025-11-12 20:01:07,880 [WARNING] Gagal menutup context/video: 'str' object has no attribute 'exists'
+2025-11-12 20:03:41,886 [INFO] 🔹 Navigasi ke halaman login
+2025-11-12 20:03:42,917 [INFO] ✅ Login berhasil, memverifikasi halaman inventory
+2025-11-12 20:03:42,924 [INFO] 🔹 Memeriksa elemen utama halaman
+2025-11-12 20:03:42,953 [INFO] 📦 Jumlah produk ditemukan: 6
+2025-11-12 20:03:42,953 [INFO] 🔹 Membuka detail produk pertama
+2025-11-12 20:03:43,038 [INFO] ✅ Detail produk berhasil dibuka dan tombol back terlihat
+2025-11-12 20:06:22,742 [INFO] 🔹 Navigasi ke halaman login
+2025-11-12 20:06:23,685 [INFO] ✅ Login berhasil, memverifikasi halaman inventory
+2025-11-12 20:06:23,696 [INFO] 🔹 Memeriksa elemen utama halaman
+2025-11-12 20:06:23,707 [INFO] 📦 Jumlah produk ditemukan: 6
+2025-11-12 20:06:23,707 [INFO] 🔹 Membuka detail produk pertama
+2025-11-12 20:06:23,810 [INFO] ✅ Detail produk berhasil dibuka dan tombol back terlihat
+2025-11-12 20:10:34,559 [INFO] 🔹 Navigasi ke halaman login
+2025-11-12 20:10:35,888 [INFO] ✅ Login berhasil, memverifikasi halaman inventory
+2025-11-12 20:10:35,894 [INFO] 🔹 Memeriksa elemen utama halaman
+2025-11-12 20:10:35,907 [INFO] 📦 Jumlah produk ditemukan: 6
+2025-11-12 20:10:35,907 [INFO] 🔹 Membuka detail produk pertama
+2025-11-12 20:10:35,998 [INFO] ✅ Detail produk berhasil dibuka dan tombol back terlihat
+2025-11-12 20:14:55,081 [INFO] 🔹 Navigasi ke halaman login
+2025-11-12 20:14:56,184 [INFO] ✅ Login berhasil, memverifikasi halaman inventory
+2025-11-12 20:14:56,189 [INFO] 🔹 Memeriksa elemen utama halaman
+2025-11-12 20:14:56,210 [INFO] 📦 Jumlah produk ditemukan: 6
+2025-11-12 20:14:56,210 [INFO] 🔹 Membuka detail produk pertama
+2025-11-12 20:14:56,300 [INFO] ✅ Detail produk berhasil dibuka dan tombol back terlihat
+2025-11-12 20:14:57,406 [INFO] 🎥 Video tersimpan di: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/d2eb2847b75e3e5eaab8afc500c0d964.webm

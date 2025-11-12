@@ -1,0 +1,3 @@
+2025-11-12 18:40:05,398 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'wrong_pass', 'expected_result': 'fail'}
+2025-11-12 18:40:06,068 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-12 18:40:06,068 [INFO] 📋 Test selesai untuk satu kombinasi data.

@@ -1,0 +1,6 @@
+2025-11-12 18:06:29,547 - INFO - 🔹 Test login dengan: {'username': 'standard_user', 'password': 'secret_sauce', 'expected_result': 'success'}
+2025-11-12 18:06:29,777 - INFO - ✅ Login berhasil seperti yang diharapkan.
+2025-11-12 18:06:30,532 - INFO - 🔹 Test login dengan: {'username': 'invalid_user', 'password': 'secret_sauce', 'expected_result': 'fail'}
+2025-11-12 18:06:30,658 - WARNING - ⚠️ Login gagal sesuai ekspektasi. Pesan: Epic sadface: Username and password do not match any user in this service
+2025-11-12 18:06:31,270 - INFO - 🔹 Test login dengan: {'username': 'standard_user', 'password': 'wrong_pass', 'expected_result': 'fail'}
+2025-11-12 18:06:31,391 - WARNING - ⚠️ Login gagal sesuai ekspektasi. Pesan: Epic sadface: Username and password do not match any user in this service

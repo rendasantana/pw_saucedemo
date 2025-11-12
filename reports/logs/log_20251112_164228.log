@@ -1,0 +1,9 @@
+2025-11-12 16:42:29,469 - INFO - Navigasi ke halaman login
+2025-11-12 16:42:29,624 - INFO - Mengisi username dan password valid
+2025-11-12 16:42:29,628 - INFO - Login sukses divalidasi dengan URL inventory.html
+2025-11-12 16:42:30,273 - INFO - Navigasi ke halaman login
+2025-11-12 16:42:30,386 - INFO - Mengisi username tidak valid
+2025-11-12 16:42:30,390 - INFO - Pesan error tampil sesuai ekspektasi
+2025-11-12 16:42:30,991 - INFO - Navigasi ke halaman login
+2025-11-12 16:42:31,099 - INFO - Mengisi password tidak valid
+2025-11-12 16:42:31,102 - INFO - Pesan error tampil sesuai ekspektasi
