@@ -3,6 +3,9 @@ import base64
 from datetime import datetime
 from pathlib import Path
 import pytest
+import subprocess
+import os
+
 
 
 # === SETUP GLOBAL ===
@@ -243,3 +246,13 @@ def pytest_html_results_summary(prefix, summary, postfix):
     }
     </style>
     """ ])
+
+def pytest_sessionfinish(session, exitstatus):
+    """Jalankan validasi otomatis setelah semua test selesai."""
+    report_path = os.path.join("reports", "report.html")
+
+    if os.path.exists(report_path):
+        print("\n🔎 Menjalankan validasi report.html otomatis (final stage)...\n")
+        subprocess.run(["python", "validate_report.py"], check=False)
+    else:
+        print("⚠️ File report.html belum dibuat, validasi dilewati.")

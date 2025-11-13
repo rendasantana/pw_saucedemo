@@ -1,3 +1,3 @@
-2025-11-12 18:39:59,256 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'secret_sauce', 'expected_result': 'success'}
-2025-11-12 18:40:01,004 [INFO] ✅ Login sukses untuk user: standard_user
-2025-11-12 18:40:01,005 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:48:33,018 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'secret_sauce', 'expected_result': 'success'}
+2025-11-13 20:48:33,849 [INFO] ✅ Login sukses untuk user: standard_user
+2025-11-13 20:48:33,849 [INFO] 📋 Test selesai untuk satu kombinasi data.

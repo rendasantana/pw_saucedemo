@@ -267,3 +267,814 @@
 2025-11-13 19:37:44,281 [INFO] 🔹 Buka halaman login SauceDemo
 2025-11-13 19:37:45,097 [INFO] 🧭 Tambahkan produk melalui detail page (1 per 1)
 2025-11-13 19:37:49,219 [INFO] ✅ Total produk di cart: 6
+2025-11-13 19:43:49,872 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 19:43:51,032 [INFO] 🧭 Tambahkan produk lewat detail page
+2025-11-13 19:43:55,361 [INFO] ✅ Semua produk dari detail page diverifikasi di cart
+2025-11-13 19:48:33,279 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 19:48:34,503 [INFO] 🧭 Tambahkan produk lewat detail page
+2025-11-13 19:48:38,731 [INFO] ✅ Semua produk dari detail page diverifikasi di cart
+2025-11-13 19:49:22,745 [INFO] 🔹 Login ke SauceDemo
+2025-11-13 19:49:23,547 [INFO] 🧭 Tambahkan 6 produk lewat halaman detail
+2025-11-13 19:49:27,832 [INFO] 🛒 Buka halaman cart dan ubah quantity produk
+2025-11-13 19:49:27,885 [INFO] 💳 Lanjut ke proses checkout
+2025-11-13 19:49:28,137 [INFO] ✅ Checkout berhasil sampai halaman selesai
+2025-11-13 19:49:28,477 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 19:49:29,229 [INFO] 🧭 Tambahkan produk lewat detail page
+2025-11-13 19:49:33,467 [INFO] ✅ Semua produk dari detail page diverifikasi di cart
+2025-11-13 19:49:33,829 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 19:49:34,532 [INFO] 🛒 Tambahkan 6 produk ke keranjang
+2025-11-13 19:49:35,743 [INFO] 🧺 Buka halaman cart dan hapus 2 produk
+2025-11-13 19:49:36,921 [INFO] ✏️ Ubah quantity setiap produk menjadi 10
+2025-11-13 19:49:36,941 [INFO] ✅ Semua quantity berhasil diubah menjadi 10
+2025-11-13 19:49:36,941 [INFO] 🧾 Validasi bahwa total quantity per produk = 10
+2025-11-13 19:49:37,295 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 19:49:38,047 [INFO] 🔹 Login dengan akun valid
+2025-11-13 19:49:38,192 [INFO] 🔹 Tambahkan produk pertama ke keranjang
+2025-11-13 19:49:38,561 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 19:49:39,193 [INFO] 🔹 Login dengan akun valid
+2025-11-13 19:49:39,345 [INFO] 🔹 Tambahkan beberapa produk ke keranjang
+2025-11-13 19:49:40,492 [INFO] ✅ 4 produk berhasil ditambahkan ke cart
+2025-11-13 19:49:40,492 [INFO] 🔹 Buka halaman cart
+2025-11-13 19:49:40,598 [INFO] 🔹 Hapus 2 produk dari cart
+2025-11-13 19:49:41,661 [INFO] 🔹 Validasi jumlah produk setelah penghapusan
+2025-11-13 19:49:41,665 [INFO] ✅ Penghapusan sebagian produk berhasil, jumlah akhir sesuai!
+2025-11-13 19:49:41,977 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 19:49:42,528 [INFO] 🔹 Login dengan akun valid
+2025-11-13 19:49:42,676 [INFO] 🔹 Tambahkan produk ke keranjang
+2025-11-13 19:49:42,708 [INFO] 🔹 Validasi jumlah item di cart badge
+2025-11-13 19:49:42,712 [INFO] ✅ Produk berhasil ditambahkan ke cart!
+2025-11-13 19:49:43,045 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 19:49:43,781 [INFO] ✅ Login berhasil, memverifikasi halaman inventory
+2025-11-13 19:49:43,785 [INFO] 🔹 Memeriksa elemen utama halaman
+2025-11-13 19:49:43,796 [INFO] 📦 Jumlah produk ditemukan: 6
+2025-11-13 19:49:43,796 [INFO] 🔹 Membuka detail produk pertama
+2025-11-13 19:49:43,891 [INFO] ✅ Detail produk berhasil dibuka dan tombol back terlihat
+2025-11-13 19:49:43,980 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/63fb083deb303cd6e26047bee850ca6e.webm
+2025-11-13 19:49:44,211 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'secret_sauce', 'expected_result': 'success'}
+2025-11-13 19:49:44,931 [INFO] ✅ Login sukses untuk user: standard_user
+2025-11-13 19:49:44,932 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 19:49:45,031 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/ecbd39865795d8c292cba512b9834aa9.webm
+2025-11-13 19:49:45,279 [INFO] Memulai dummy test untuk chromium
+2025-11-13 19:49:47,920 [INFO] Menunggu sebentar agar video tidak kosong...
+2025-11-13 19:49:47,930 [INFO] ✅ Dummy video test sukses!
+2025-11-13 19:49:48,045 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/e618ffd5adeb1602cfc3d49c1657adc7.webm
+2025-11-13 19:49:48,277 [INFO] 🔹 Testing login dengan: {'username': 'invalid_user', 'password': 'secret_sauce', 'expected_result': 'fail'}
+2025-11-13 19:49:48,981 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-13 19:49:48,981 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 19:49:49,042 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/c0fd6b0e5d1b6a51860b2b02fa921820.webm
+2025-11-13 19:49:49,277 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'wrong_pass', 'expected_result': 'fail'}
+2025-11-13 19:49:49,927 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-13 19:49:49,927 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 19:49:49,994 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/53a833701a33a67bf54d1549be34f469.webm
+2025-11-13 19:50:24,932 [INFO] 🔹 Login ke SauceDemo
+2025-11-13 19:50:25,722 [INFO] 🧭 Tambahkan 6 produk lewat halaman detail
+2025-11-13 19:50:29,965 [INFO] 🛒 Buka halaman cart dan ubah quantity produk
+2025-11-13 19:50:30,019 [INFO] 💳 Lanjut ke proses checkout
+2025-11-13 19:50:30,269 [INFO] ✅ Checkout berhasil sampai halaman selesai
+2025-11-13 20:05:54,687 [INFO] 🔹 Login ke SauceDemo
+2025-11-13 20:05:55,728 [INFO] 🧭 Tambahkan 6 produk lewat halaman detail
+2025-11-13 20:06:00,089 [INFO] 🛒 Buka halaman cart dan ubah quantity produk
+2025-11-13 20:06:00,253 [INFO] 💳 Lanjut ke proses checkout
+2025-11-13 20:06:00,661 [INFO] ✅ Checkout berhasil sampai halaman selesai
+2025-11-13 20:09:41,214 [INFO] 🔹 Login ke SauceDemo
+2025-11-13 20:09:42,152 [INFO] 🧭 Tambahkan 6 produk lewat halaman detail
+2025-11-13 20:09:45,920 [INFO] 🛒 Buka halaman cart dan ubah quantity produk
+2025-11-13 20:09:46,035 [INFO] 💳 Lanjut ke proses checkout
+2025-11-13 20:09:46,289 [INFO] ✅ Checkout berhasil sampai halaman selesai
+2025-11-13 20:09:46,455 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:09:47,063 [INFO] 🧭 Tambahkan produk lewat detail page
+2025-11-13 20:09:50,707 [INFO] ✅ Semua produk dari detail page diverifikasi di cart
+2025-11-13 20:09:50,852 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:09:51,495 [INFO] 🛒 Tambahkan 6 produk ke keranjang
+2025-11-13 20:09:52,719 [INFO] 🧺 Buka halaman cart dan hapus 2 produk
+2025-11-13 20:09:53,832 [INFO] ✏️ Ubah quantity setiap produk menjadi 10
+2025-11-13 20:09:53,853 [INFO] ✅ Semua quantity berhasil diubah menjadi 10
+2025-11-13 20:09:53,853 [INFO] 🧾 Validasi bahwa total quantity per produk = 10
+2025-11-13 20:09:54,012 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:09:54,512 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:09:54,628 [INFO] 🔹 Tambahkan produk pertama ke keranjang
+2025-11-13 20:09:54,798 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:09:55,293 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:09:55,397 [INFO] 🔹 Tambahkan beberapa produk ke keranjang
+2025-11-13 20:09:56,553 [INFO] ✅ 4 produk berhasil ditambahkan ke cart
+2025-11-13 20:09:56,554 [INFO] 🔹 Buka halaman cart
+2025-11-13 20:09:56,580 [INFO] 🔹 Hapus 2 produk dari cart
+2025-11-13 20:09:57,658 [INFO] 🔹 Validasi jumlah produk setelah penghapusan
+2025-11-13 20:09:57,670 [INFO] ✅ Penghapusan sebagian produk berhasil, jumlah akhir sesuai!
+2025-11-13 20:09:57,807 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:09:58,303 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:09:58,412 [INFO] 🔹 Tambahkan produk ke keranjang
+2025-11-13 20:09:58,435 [INFO] 🔹 Validasi jumlah item di cart badge
+2025-11-13 20:09:58,438 [INFO] ✅ Produk berhasil ditambahkan ke cart!
+2025-11-13 20:09:58,561 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:09:59,142 [INFO] ✅ Login berhasil, memverifikasi halaman inventory
+2025-11-13 20:09:59,146 [INFO] 🔹 Memeriksa elemen utama halaman
+2025-11-13 20:09:59,154 [INFO] 📦 Jumlah produk ditemukan: 6
+2025-11-13 20:09:59,154 [INFO] 🔹 Membuka detail produk pertama
+2025-11-13 20:09:59,190 [INFO] ✅ Detail produk berhasil dibuka dan tombol back terlihat
+2025-11-13 20:09:59,235 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/6019cf7c2a2dc54de04f565fbed981bf.webm
+2025-11-13 20:09:59,286 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'secret_sauce', 'expected_result': 'success'}
+2025-11-13 20:09:59,878 [INFO] ✅ Login sukses untuk user: standard_user
+2025-11-13 20:09:59,878 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:10:00,006 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/dc039cf95166dea0395eddaca525f88a.webm
+2025-11-13 20:10:00,072 [INFO] Memulai dummy test untuk chromium
+2025-11-13 20:10:02,561 [INFO] Menunggu sebentar agar video tidak kosong...
+2025-11-13 20:10:02,570 [INFO] ✅ Dummy video test sukses!
+2025-11-13 20:10:02,681 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/689eab8ec1b59d35981499cfcab8fb29.webm
+2025-11-13 20:10:02,733 [INFO] 🔹 Testing login dengan: {'username': 'invalid_user', 'password': 'secret_sauce', 'expected_result': 'fail'}
+2025-11-13 20:10:03,356 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-13 20:10:03,357 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:10:03,392 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/938497a6502abfed4b68b4af09494b27.webm
+2025-11-13 20:10:03,451 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'wrong_pass', 'expected_result': 'fail'}
+2025-11-13 20:10:04,035 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-13 20:10:04,035 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:10:04,077 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/2ea2c536e96b09dc2b573a2ae2e48c4f.webm
+2025-11-13 20:16:32,676 [INFO] 🔹 Login ke SauceDemo
+2025-11-13 20:16:33,602 [INFO] 🧭 Tambahkan 6 produk lewat halaman detail
+2025-11-13 20:16:37,392 [INFO] 🛒 Buka halaman cart dan ubah quantity produk
+2025-11-13 20:16:37,508 [INFO] 💳 Lanjut ke proses checkout
+2025-11-13 20:16:37,761 [INFO] ✅ Checkout berhasil sampai halaman selesai
+2025-11-13 20:16:37,934 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:16:38,569 [INFO] 🧭 Tambahkan produk lewat detail page
+2025-11-13 20:16:42,213 [INFO] ✅ Semua produk dari detail page diverifikasi di cart
+2025-11-13 20:16:42,372 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:16:43,405 [INFO] 🛒 Tambahkan 6 produk ke keranjang
+2025-11-13 20:16:44,623 [INFO] 🧺 Buka halaman cart dan hapus 2 produk
+2025-11-13 20:16:45,737 [INFO] ✏️ Ubah quantity setiap produk menjadi 10
+2025-11-13 20:16:45,759 [INFO] ✅ Semua quantity berhasil diubah menjadi 10
+2025-11-13 20:16:45,760 [INFO] 🧾 Validasi bahwa total quantity per produk = 10
+2025-11-13 20:16:45,936 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:16:46,417 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:16:46,521 [INFO] 🔹 Tambahkan produk pertama ke keranjang
+2025-11-13 20:16:46,671 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:16:47,146 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:16:47,253 [INFO] 🔹 Tambahkan beberapa produk ke keranjang
+2025-11-13 20:16:48,407 [INFO] ✅ 4 produk berhasil ditambahkan ke cart
+2025-11-13 20:16:48,408 [INFO] 🔹 Buka halaman cart
+2025-11-13 20:16:48,437 [INFO] 🔹 Hapus 2 produk dari cart
+2025-11-13 20:16:49,514 [INFO] 🔹 Validasi jumlah produk setelah penghapusan
+2025-11-13 20:16:49,526 [INFO] ✅ Penghapusan sebagian produk berhasil, jumlah akhir sesuai!
+2025-11-13 20:16:49,671 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:16:50,221 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:16:50,335 [INFO] 🔹 Tambahkan produk ke keranjang
+2025-11-13 20:16:50,359 [INFO] 🔹 Validasi jumlah item di cart badge
+2025-11-13 20:16:50,362 [INFO] ✅ Produk berhasil ditambahkan ke cart!
+2025-11-13 20:16:50,498 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:16:51,085 [INFO] ✅ Login berhasil, memverifikasi halaman inventory
+2025-11-13 20:16:51,089 [INFO] 🔹 Memeriksa elemen utama halaman
+2025-11-13 20:16:51,099 [INFO] 📦 Jumlah produk ditemukan: 6
+2025-11-13 20:16:51,099 [INFO] 🔹 Membuka detail produk pertama
+2025-11-13 20:16:51,129 [INFO] ✅ Detail produk berhasil dibuka dan tombol back terlihat
+2025-11-13 20:16:51,255 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/5a8644ebfb7689df992b79b0dde225ab.webm
+2025-11-13 20:16:51,327 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'secret_sauce', 'expected_result': 'success'}
+2025-11-13 20:16:51,920 [INFO] ✅ Login sukses untuk user: standard_user
+2025-11-13 20:16:51,920 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:16:52,016 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/dda28c7fefbaa838d424d4b3d55ba32a.webm
+2025-11-13 20:16:52,074 [INFO] Memulai dummy test untuk chromium
+2025-11-13 20:16:54,568 [INFO] Menunggu sebentar agar video tidak kosong...
+2025-11-13 20:16:54,581 [INFO] ✅ Dummy video test sukses!
+2025-11-13 20:16:54,705 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/ab5a361dd2f85dda56458486e6e28df1.webm
+2025-11-13 20:16:54,763 [INFO] 🔹 Testing login dengan: {'username': 'invalid_user', 'password': 'secret_sauce', 'expected_result': 'fail'}
+2025-11-13 20:16:55,356 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-13 20:16:55,357 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:16:55,404 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/ca40fe34a8ecd1370400c8148561a222.webm
+2025-11-13 20:16:55,470 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'wrong_pass', 'expected_result': 'fail'}
+2025-11-13 20:16:56,059 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-13 20:16:56,059 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:16:56,101 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/f3293ad09f65af739679290d500c5f71.webm
+2025-11-13 20:17:01,700 [INFO] 🔹 Login ke SauceDemo
+2025-11-13 20:17:02,464 [INFO] 🧭 Tambahkan 6 produk lewat halaman detail
+2025-11-13 20:17:06,226 [INFO] 🛒 Buka halaman cart dan ubah quantity produk
+2025-11-13 20:17:06,341 [INFO] 💳 Lanjut ke proses checkout
+2025-11-13 20:17:06,594 [INFO] ✅ Checkout berhasil sampai halaman selesai
+2025-11-13 20:17:06,761 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:17:07,401 [INFO] 🧭 Tambahkan produk lewat detail page
+2025-11-13 20:17:11,048 [INFO] ✅ Semua produk dari detail page diverifikasi di cart
+2025-11-13 20:17:11,360 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:17:11,984 [INFO] 🛒 Tambahkan 6 produk ke keranjang
+2025-11-13 20:17:13,206 [INFO] 🧺 Buka halaman cart dan hapus 2 produk
+2025-11-13 20:17:14,315 [INFO] ✏️ Ubah quantity setiap produk menjadi 10
+2025-11-13 20:17:14,333 [INFO] ✅ Semua quantity berhasil diubah menjadi 10
+2025-11-13 20:17:14,334 [INFO] 🧾 Validasi bahwa total quantity per produk = 10
+2025-11-13 20:17:14,494 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:17:14,979 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:17:15,086 [INFO] 🔹 Tambahkan produk pertama ke keranjang
+2025-11-13 20:17:15,268 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:17:15,763 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:17:15,868 [INFO] 🔹 Tambahkan beberapa produk ke keranjang
+2025-11-13 20:17:17,024 [INFO] ✅ 4 produk berhasil ditambahkan ke cart
+2025-11-13 20:17:17,024 [INFO] 🔹 Buka halaman cart
+2025-11-13 20:17:17,053 [INFO] 🔹 Hapus 2 produk dari cart
+2025-11-13 20:17:18,130 [INFO] 🔹 Validasi jumlah produk setelah penghapusan
+2025-11-13 20:17:18,142 [INFO] ✅ Penghapusan sebagian produk berhasil, jumlah akhir sesuai!
+2025-11-13 20:17:18,280 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:17:18,785 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:17:18,885 [INFO] 🔹 Tambahkan produk ke keranjang
+2025-11-13 20:17:18,924 [INFO] 🔹 Validasi jumlah item di cart badge
+2025-11-13 20:17:18,928 [INFO] ✅ Produk berhasil ditambahkan ke cart!
+2025-11-13 20:17:19,077 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:17:19,648 [INFO] ✅ Login berhasil, memverifikasi halaman inventory
+2025-11-13 20:17:19,651 [INFO] 🔹 Memeriksa elemen utama halaman
+2025-11-13 20:17:19,659 [INFO] 📦 Jumlah produk ditemukan: 6
+2025-11-13 20:17:19,659 [INFO] 🔹 Membuka detail produk pertama
+2025-11-13 20:17:19,694 [INFO] ✅ Detail produk berhasil dibuka dan tombol back terlihat
+2025-11-13 20:17:19,740 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/b4463aaccb5c3f8181ad208ee2ef7196.webm
+2025-11-13 20:17:19,793 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'secret_sauce', 'expected_result': 'success'}
+2025-11-13 20:17:20,384 [INFO] ✅ Login sukses untuk user: standard_user
+2025-11-13 20:17:20,384 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:17:20,476 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/cf7bc6b2fec34f4d7433b114b51d2d70.webm
+2025-11-13 20:17:20,534 [INFO] Memulai dummy test untuk chromium
+2025-11-13 20:17:23,012 [INFO] Menunggu sebentar agar video tidak kosong...
+2025-11-13 20:17:23,023 [INFO] ✅ Dummy video test sukses!
+2025-11-13 20:17:23,134 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/1e475a81dee6cb45ed112407e53cd4fc.webm
+2025-11-13 20:17:23,188 [INFO] 🔹 Testing login dengan: {'username': 'invalid_user', 'password': 'secret_sauce', 'expected_result': 'fail'}
+2025-11-13 20:17:23,797 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-13 20:17:23,797 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:17:23,832 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/22233106606a0166cf30fcf5951c61ed.webm
+2025-11-13 20:17:23,896 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'wrong_pass', 'expected_result': 'fail'}
+2025-11-13 20:17:24,458 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-13 20:17:24,458 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:17:24,501 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/40fbe53037226a3c3209593a0eb3be91.webm
+2025-11-13 20:19:12,864 [INFO] 🔹 Login ke SauceDemo
+2025-11-13 20:19:13,765 [INFO] 🧭 Tambahkan 6 produk lewat halaman detail
+2025-11-13 20:19:17,566 [INFO] 🛒 Buka halaman cart dan ubah quantity produk
+2025-11-13 20:19:17,681 [INFO] 💳 Lanjut ke proses checkout
+2025-11-13 20:19:17,936 [INFO] ✅ Checkout berhasil sampai halaman selesai
+2025-11-13 20:19:18,104 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:19:18,743 [INFO] 🧭 Tambahkan produk lewat detail page
+2025-11-13 20:19:22,399 [INFO] ✅ Semua produk dari detail page diverifikasi di cart
+2025-11-13 20:19:22,553 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:19:23,144 [INFO] 🛒 Tambahkan 6 produk ke keranjang
+2025-11-13 20:19:24,360 [INFO] 🧺 Buka halaman cart dan hapus 2 produk
+2025-11-13 20:19:25,474 [INFO] ✏️ Ubah quantity setiap produk menjadi 10
+2025-11-13 20:19:25,497 [INFO] ✅ Semua quantity berhasil diubah menjadi 10
+2025-11-13 20:19:25,497 [INFO] 🧾 Validasi bahwa total quantity per produk = 10
+2025-11-13 20:19:25,659 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:19:26,158 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:19:26,278 [INFO] 🔹 Tambahkan produk pertama ke keranjang
+2025-11-13 20:19:26,461 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:19:26,937 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:19:27,043 [INFO] 🔹 Tambahkan beberapa produk ke keranjang
+2025-11-13 20:19:28,195 [INFO] ✅ 4 produk berhasil ditambahkan ke cart
+2025-11-13 20:19:28,196 [INFO] 🔹 Buka halaman cart
+2025-11-13 20:19:28,295 [INFO] 🔹 Hapus 2 produk dari cart
+2025-11-13 20:19:29,371 [INFO] 🔹 Validasi jumlah produk setelah penghapusan
+2025-11-13 20:19:29,385 [INFO] ✅ Penghapusan sebagian produk berhasil, jumlah akhir sesuai!
+2025-11-13 20:19:29,521 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:19:30,002 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:19:30,109 [INFO] 🔹 Tambahkan produk ke keranjang
+2025-11-13 20:19:30,150 [INFO] 🔹 Validasi jumlah item di cart badge
+2025-11-13 20:19:30,154 [INFO] ✅ Produk berhasil ditambahkan ke cart!
+2025-11-13 20:19:30,300 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:19:30,891 [INFO] ✅ Login berhasil, memverifikasi halaman inventory
+2025-11-13 20:19:30,895 [INFO] 🔹 Memeriksa elemen utama halaman
+2025-11-13 20:19:30,905 [INFO] 📦 Jumlah produk ditemukan: 6
+2025-11-13 20:19:30,905 [INFO] 🔹 Membuka detail produk pertama
+2025-11-13 20:19:30,925 [INFO] ✅ Detail produk berhasil dibuka dan tombol back terlihat
+2025-11-13 20:19:30,999 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/8837c98151bb2dc0fff3411e077dbefb.webm
+2025-11-13 20:19:31,063 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'secret_sauce', 'expected_result': 'success'}
+2025-11-13 20:19:31,643 [INFO] ✅ Login sukses untuk user: standard_user
+2025-11-13 20:19:31,643 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:19:31,747 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/3c1b8989e8b2e70882ff23ef23845a61.webm
+2025-11-13 20:19:31,806 [INFO] Memulai dummy test untuk chromium
+2025-11-13 20:19:34,278 [INFO] Menunggu sebentar agar video tidak kosong...
+2025-11-13 20:19:34,285 [INFO] ✅ Dummy video test sukses!
+2025-11-13 20:19:34,393 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/e616005865fc9f0e098aa45303a6af00.webm
+2025-11-13 20:19:34,460 [INFO] 🔹 Testing login dengan: {'username': 'invalid_user', 'password': 'secret_sauce', 'expected_result': 'fail'}
+2025-11-13 20:19:35,023 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-13 20:19:35,023 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:19:35,060 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/007d129b465af5f1b0e248a033d631b6.webm
+2025-11-13 20:19:35,120 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'wrong_pass', 'expected_result': 'fail'}
+2025-11-13 20:19:35,715 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-13 20:19:35,715 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:19:35,760 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/b05b6e9897341d5d35652366fd8cbed5.webm
+2025-11-13 20:21:16,520 [INFO] 🔹 Login ke SauceDemo
+2025-11-13 20:21:17,457 [INFO] 🧭 Tambahkan 6 produk lewat halaman detail
+2025-11-13 20:21:21,259 [INFO] 🛒 Buka halaman cart dan ubah quantity produk
+2025-11-13 20:21:21,375 [INFO] 💳 Lanjut ke proses checkout
+2025-11-13 20:21:21,628 [INFO] ✅ Checkout berhasil sampai halaman selesai
+2025-11-13 20:21:21,801 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:21:22,420 [INFO] 🧭 Tambahkan produk lewat detail page
+2025-11-13 20:21:26,093 [INFO] ✅ Semua produk dari detail page diverifikasi di cart
+2025-11-13 20:21:26,246 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:21:26,856 [INFO] 🛒 Tambahkan 6 produk ke keranjang
+2025-11-13 20:21:28,080 [INFO] 🧺 Buka halaman cart dan hapus 2 produk
+2025-11-13 20:21:29,187 [INFO] ✏️ Ubah quantity setiap produk menjadi 10
+2025-11-13 20:21:29,211 [INFO] ✅ Semua quantity berhasil diubah menjadi 10
+2025-11-13 20:21:29,211 [INFO] 🧾 Validasi bahwa total quantity per produk = 10
+2025-11-13 20:21:29,395 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:21:29,938 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:21:30,052 [INFO] 🔹 Tambahkan produk pertama ke keranjang
+2025-11-13 20:21:30,243 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:21:30,826 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:21:30,937 [INFO] 🔹 Tambahkan beberapa produk ke keranjang
+2025-11-13 20:21:32,089 [INFO] ✅ 4 produk berhasil ditambahkan ke cart
+2025-11-13 20:21:32,089 [INFO] 🔹 Buka halaman cart
+2025-11-13 20:21:32,117 [INFO] 🔹 Hapus 2 produk dari cart
+2025-11-13 20:21:33,193 [INFO] 🔹 Validasi jumlah produk setelah penghapusan
+2025-11-13 20:21:33,205 [INFO] ✅ Penghapusan sebagian produk berhasil, jumlah akhir sesuai!
+2025-11-13 20:21:33,369 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:21:33,862 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:21:33,970 [INFO] 🔹 Tambahkan produk ke keranjang
+2025-11-13 20:21:34,008 [INFO] 🔹 Validasi jumlah item di cart badge
+2025-11-13 20:21:34,012 [INFO] ✅ Produk berhasil ditambahkan ke cart!
+2025-11-13 20:21:34,158 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:21:34,783 [INFO] ✅ Login berhasil, memverifikasi halaman inventory
+2025-11-13 20:21:34,786 [INFO] 🔹 Memeriksa elemen utama halaman
+2025-11-13 20:21:34,796 [INFO] 📦 Jumlah produk ditemukan: 6
+2025-11-13 20:21:34,796 [INFO] 🔹 Membuka detail produk pertama
+2025-11-13 20:21:34,829 [INFO] ✅ Detail produk berhasil dibuka dan tombol back terlihat
+2025-11-13 20:21:34,876 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/c0e2877752beb6ccd0bc391258cc06f4.webm
+2025-11-13 20:21:34,938 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'secret_sauce', 'expected_result': 'success'}
+2025-11-13 20:21:35,517 [INFO] ✅ Login sukses untuk user: standard_user
+2025-11-13 20:21:35,517 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:21:35,610 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/e326d3b0b79a99c0f3d114ca3962461b.webm
+2025-11-13 20:21:35,664 [INFO] Memulai dummy test untuk chromium
+2025-11-13 20:21:38,134 [INFO] Menunggu sebentar agar video tidak kosong...
+2025-11-13 20:21:38,143 [INFO] ✅ Dummy video test sukses!
+2025-11-13 20:21:38,266 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/f8d822c0ef20e128903ee52b8487dfd9.webm
+2025-11-13 20:21:38,320 [INFO] 🔹 Testing login dengan: {'username': 'invalid_user', 'password': 'secret_sauce', 'expected_result': 'fail'}
+2025-11-13 20:21:38,930 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-13 20:21:38,931 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:21:38,967 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/14ba2b0bcdefc768f48a89b9c7c75905.webm
+2025-11-13 20:21:39,027 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'wrong_pass', 'expected_result': 'fail'}
+2025-11-13 20:21:39,625 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-13 20:21:39,625 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:21:39,667 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/5415b927da80c1bec9b6247eda702ce6.webm
+2025-11-13 20:24:21,997 [INFO] 🔹 Login ke SauceDemo
+2025-11-13 20:24:23,059 [INFO] 🧭 Tambahkan 6 produk lewat halaman detail
+2025-11-13 20:24:26,881 [INFO] 🛒 Buka halaman cart dan ubah quantity produk
+2025-11-13 20:24:26,996 [INFO] 💳 Lanjut ke proses checkout
+2025-11-13 20:24:27,249 [INFO] ✅ Checkout berhasil sampai halaman selesai
+2025-11-13 20:24:27,446 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:24:28,259 [INFO] 🧭 Tambahkan produk lewat detail page
+2025-11-13 20:24:31,884 [INFO] ✅ Semua produk dari detail page diverifikasi di cart
+2025-11-13 20:24:32,030 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:24:32,623 [INFO] 🛒 Tambahkan 6 produk ke keranjang
+2025-11-13 20:24:33,844 [INFO] 🧺 Buka halaman cart dan hapus 2 produk
+2025-11-13 20:24:34,957 [INFO] ✏️ Ubah quantity setiap produk menjadi 10
+2025-11-13 20:24:34,978 [INFO] ✅ Semua quantity berhasil diubah menjadi 10
+2025-11-13 20:24:34,978 [INFO] 🧾 Validasi bahwa total quantity per produk = 10
+2025-11-13 20:24:35,163 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:24:35,658 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:24:35,774 [INFO] 🔹 Tambahkan produk pertama ke keranjang
+2025-11-13 20:24:35,950 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:24:36,414 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:24:36,523 [INFO] 🔹 Tambahkan beberapa produk ke keranjang
+2025-11-13 20:24:37,675 [INFO] ✅ 4 produk berhasil ditambahkan ke cart
+2025-11-13 20:24:37,676 [INFO] 🔹 Buka halaman cart
+2025-11-13 20:24:37,709 [INFO] 🔹 Hapus 2 produk dari cart
+2025-11-13 20:24:38,786 [INFO] 🔹 Validasi jumlah produk setelah penghapusan
+2025-11-13 20:24:38,796 [INFO] ✅ Penghapusan sebagian produk berhasil, jumlah akhir sesuai!
+2025-11-13 20:24:38,938 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:24:39,415 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:24:39,523 [INFO] 🔹 Tambahkan produk ke keranjang
+2025-11-13 20:24:39,546 [INFO] 🔹 Validasi jumlah item di cart badge
+2025-11-13 20:24:39,548 [INFO] ✅ Produk berhasil ditambahkan ke cart!
+2025-11-13 20:24:39,688 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:24:40,305 [INFO] ✅ Login berhasil, memverifikasi halaman inventory
+2025-11-13 20:24:40,309 [INFO] 🔹 Memeriksa elemen utama halaman
+2025-11-13 20:24:40,318 [INFO] 📦 Jumlah produk ditemukan: 6
+2025-11-13 20:24:40,319 [INFO] 🔹 Membuka detail produk pertama
+2025-11-13 20:24:40,352 [INFO] ✅ Detail produk berhasil dibuka dan tombol back terlihat
+2025-11-13 20:24:40,396 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/6c0f18a22540e9453cc3d4d65a3cbec3.webm
+2025-11-13 20:24:40,448 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'secret_sauce', 'expected_result': 'success'}
+2025-11-13 20:24:41,022 [INFO] ✅ Login sukses untuk user: standard_user
+2025-11-13 20:24:41,022 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:24:41,163 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/2cccc4f4f89020d8491a83ccf99cec8c.webm
+2025-11-13 20:24:41,233 [INFO] Memulai dummy test untuk chromium
+2025-11-13 20:24:43,708 [INFO] Menunggu sebentar agar video tidak kosong...
+2025-11-13 20:24:43,714 [INFO] ✅ Dummy video test sukses!
+2025-11-13 20:24:43,825 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/74fb5b1099da45692aaf2c2adb8b87d8.webm
+2025-11-13 20:24:43,881 [INFO] 🔹 Testing login dengan: {'username': 'invalid_user', 'password': 'secret_sauce', 'expected_result': 'fail'}
+2025-11-13 20:24:44,472 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-13 20:24:44,472 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:24:44,526 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/a97f1ccc2d8ff8542825aae7899e0176.webm
+2025-11-13 20:24:44,587 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'wrong_pass', 'expected_result': 'fail'}
+2025-11-13 20:24:45,181 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-13 20:24:45,182 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:24:45,221 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/d874c70296b10bf731c1f4d085fa71be.webm
+2025-11-13 20:28:33,442 [INFO] 🔹 Login ke SauceDemo
+2025-11-13 20:28:34,331 [INFO] 🧭 Tambahkan 6 produk lewat halaman detail
+2025-11-13 20:28:38,113 [INFO] 🛒 Buka halaman cart dan ubah quantity produk
+2025-11-13 20:28:38,230 [INFO] 💳 Lanjut ke proses checkout
+2025-11-13 20:28:38,484 [INFO] ✅ Checkout berhasil sampai halaman selesai
+2025-11-13 20:28:38,707 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:28:39,309 [INFO] 🧭 Tambahkan produk lewat detail page
+2025-11-13 20:28:42,946 [INFO] ✅ Semua produk dari detail page diverifikasi di cart
+2025-11-13 20:28:43,096 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:28:43,674 [INFO] 🛒 Tambahkan 6 produk ke keranjang
+2025-11-13 20:28:44,896 [INFO] 🧺 Buka halaman cart dan hapus 2 produk
+2025-11-13 20:28:46,007 [INFO] ✏️ Ubah quantity setiap produk menjadi 10
+2025-11-13 20:28:46,028 [INFO] ✅ Semua quantity berhasil diubah menjadi 10
+2025-11-13 20:28:46,028 [INFO] 🧾 Validasi bahwa total quantity per produk = 10
+2025-11-13 20:28:46,191 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:28:46,706 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:28:46,828 [INFO] 🔹 Tambahkan produk pertama ke keranjang
+2025-11-13 20:28:47,007 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:28:47,468 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:28:47,574 [INFO] 🔹 Tambahkan beberapa produk ke keranjang
+2025-11-13 20:28:48,728 [INFO] ✅ 4 produk berhasil ditambahkan ke cart
+2025-11-13 20:28:48,729 [INFO] 🔹 Buka halaman cart
+2025-11-13 20:28:48,759 [INFO] 🔹 Hapus 2 produk dari cart
+2025-11-13 20:28:49,836 [INFO] 🔹 Validasi jumlah produk setelah penghapusan
+2025-11-13 20:28:49,848 [INFO] ✅ Penghapusan sebagian produk berhasil, jumlah akhir sesuai!
+2025-11-13 20:28:50,011 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:28:50,550 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:28:50,657 [INFO] 🔹 Tambahkan produk ke keranjang
+2025-11-13 20:28:50,681 [INFO] 🔹 Validasi jumlah item di cart badge
+2025-11-13 20:28:50,684 [INFO] ✅ Produk berhasil ditambahkan ke cart!
+2025-11-13 20:28:50,835 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:28:51,472 [INFO] ✅ Login berhasil, memverifikasi halaman inventory
+2025-11-13 20:28:51,475 [INFO] 🔹 Memeriksa elemen utama halaman
+2025-11-13 20:28:51,487 [INFO] 📦 Jumlah produk ditemukan: 6
+2025-11-13 20:28:51,487 [INFO] 🔹 Membuka detail produk pertama
+2025-11-13 20:28:51,519 [INFO] ✅ Detail produk berhasil dibuka dan tombol back terlihat
+2025-11-13 20:28:51,602 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/0d8e48a686399ff3c23118a0f927ebf1.webm
+2025-11-13 20:28:51,664 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'secret_sauce', 'expected_result': 'success'}
+2025-11-13 20:28:52,267 [INFO] ✅ Login sukses untuk user: standard_user
+2025-11-13 20:28:52,272 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:28:52,441 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/1e2d5b0377c15d31f30436978a06f89d.webm
+2025-11-13 20:28:52,498 [INFO] Memulai dummy test untuk chromium
+2025-11-13 20:28:55,011 [INFO] Menunggu sebentar agar video tidak kosong...
+2025-11-13 20:28:55,022 [INFO] ✅ Dummy video test sukses!
+2025-11-13 20:28:55,153 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/705d63b8bb31f7c063e29a9707bf1b72.webm
+2025-11-13 20:28:55,221 [INFO] 🔹 Testing login dengan: {'username': 'invalid_user', 'password': 'secret_sauce', 'expected_result': 'fail'}
+2025-11-13 20:28:55,836 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-13 20:28:55,837 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:28:55,874 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/064a1bbd29a499c6419b477fc00ba967.webm
+2025-11-13 20:28:55,928 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'wrong_pass', 'expected_result': 'fail'}
+2025-11-13 20:28:56,741 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-13 20:28:56,744 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:28:56,880 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/4a3429ed4e8f32a8501b5818361ac095.webm
+2025-11-13 20:29:48,368 [INFO] 🔹 Login ke SauceDemo
+2025-11-13 20:29:49,239 [INFO] 🧭 Tambahkan 6 produk lewat halaman detail
+2025-11-13 20:29:53,009 [INFO] 🛒 Buka halaman cart dan ubah quantity produk
+2025-11-13 20:29:53,125 [INFO] 💳 Lanjut ke proses checkout
+2025-11-13 20:29:53,379 [INFO] ✅ Checkout berhasil sampai halaman selesai
+2025-11-13 20:29:53,548 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:29:54,136 [INFO] 🧭 Tambahkan produk lewat detail page
+2025-11-13 20:29:57,767 [INFO] ✅ Semua produk dari detail page diverifikasi di cart
+2025-11-13 20:29:57,932 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:29:58,538 [INFO] 🛒 Tambahkan 6 produk ke keranjang
+2025-11-13 20:29:59,752 [INFO] 🧺 Buka halaman cart dan hapus 2 produk
+2025-11-13 20:30:00,833 [INFO] ✏️ Ubah quantity setiap produk menjadi 10
+2025-11-13 20:30:00,852 [INFO] ✅ Semua quantity berhasil diubah menjadi 10
+2025-11-13 20:30:00,853 [INFO] 🧾 Validasi bahwa total quantity per produk = 10
+2025-11-13 20:30:01,025 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:30:01,521 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:30:01,636 [INFO] 🔹 Tambahkan produk pertama ke keranjang
+2025-11-13 20:30:01,778 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:30:02,249 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:30:02,354 [INFO] 🔹 Tambahkan beberapa produk ke keranjang
+2025-11-13 20:30:03,508 [INFO] ✅ 4 produk berhasil ditambahkan ke cart
+2025-11-13 20:30:03,509 [INFO] 🔹 Buka halaman cart
+2025-11-13 20:30:03,537 [INFO] 🔹 Hapus 2 produk dari cart
+2025-11-13 20:30:04,614 [INFO] 🔹 Validasi jumlah produk setelah penghapusan
+2025-11-13 20:30:04,621 [INFO] ✅ Penghapusan sebagian produk berhasil, jumlah akhir sesuai!
+2025-11-13 20:30:04,788 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:30:05,299 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:30:05,419 [INFO] 🔹 Tambahkan produk ke keranjang
+2025-11-13 20:30:05,442 [INFO] 🔹 Validasi jumlah item di cart badge
+2025-11-13 20:30:05,445 [INFO] ✅ Produk berhasil ditambahkan ke cart!
+2025-11-13 20:30:05,587 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:30:06,134 [INFO] ✅ Login berhasil, memverifikasi halaman inventory
+2025-11-13 20:30:06,137 [INFO] 🔹 Memeriksa elemen utama halaman
+2025-11-13 20:30:06,148 [INFO] 📦 Jumlah produk ditemukan: 6
+2025-11-13 20:30:06,148 [INFO] 🔹 Membuka detail produk pertama
+2025-11-13 20:30:06,180 [INFO] ✅ Detail produk berhasil dibuka dan tombol back terlihat
+2025-11-13 20:30:06,261 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/f1d5e8be792b4601bd11724a02651a4e.webm
+2025-11-13 20:30:06,321 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'secret_sauce', 'expected_result': 'success'}
+2025-11-13 20:30:06,920 [INFO] ✅ Login sukses untuk user: standard_user
+2025-11-13 20:30:06,920 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:30:07,016 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/39c5903f280c29845270e80d5ef7b448.webm
+2025-11-13 20:30:07,076 [INFO] Memulai dummy test untuk chromium
+2025-11-13 20:30:09,570 [INFO] Menunggu sebentar agar video tidak kosong...
+2025-11-13 20:30:09,578 [INFO] ✅ Dummy video test sukses!
+2025-11-13 20:30:09,694 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/386f9aaa2aac4fe31354868b03c4e675.webm
+2025-11-13 20:30:09,747 [INFO] 🔹 Testing login dengan: {'username': 'invalid_user', 'password': 'secret_sauce', 'expected_result': 'fail'}
+2025-11-13 20:30:10,347 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-13 20:30:10,347 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:30:10,385 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/a5cb0a574895e03357ba698482ecaeaa.webm
+2025-11-13 20:30:10,447 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'wrong_pass', 'expected_result': 'fail'}
+2025-11-13 20:30:11,013 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-13 20:30:11,013 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:30:11,054 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/fd0535b622495a8e34261b4fef6cd70a.webm
+2025-11-13 20:30:59,444 [INFO] 🔹 Login ke SauceDemo
+2025-11-13 20:31:00,365 [INFO] 🧭 Tambahkan 6 produk lewat halaman detail
+2025-11-13 20:31:04,121 [INFO] 🛒 Buka halaman cart dan ubah quantity produk
+2025-11-13 20:31:04,237 [INFO] 💳 Lanjut ke proses checkout
+2025-11-13 20:31:04,526 [INFO] ✅ Checkout berhasil sampai halaman selesai
+2025-11-13 20:31:04,691 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:31:05,316 [INFO] 🧭 Tambahkan produk lewat detail page
+2025-11-13 20:31:08,962 [INFO] ✅ Semua produk dari detail page diverifikasi di cart
+2025-11-13 20:31:09,108 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:31:09,699 [INFO] 🛒 Tambahkan 6 produk ke keranjang
+2025-11-13 20:31:10,919 [INFO] 🧺 Buka halaman cart dan hapus 2 produk
+2025-11-13 20:31:12,032 [INFO] ✏️ Ubah quantity setiap produk menjadi 10
+2025-11-13 20:31:12,054 [INFO] ✅ Semua quantity berhasil diubah menjadi 10
+2025-11-13 20:31:12,055 [INFO] 🧾 Validasi bahwa total quantity per produk = 10
+2025-11-13 20:31:12,234 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:31:12,718 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:31:12,832 [INFO] 🔹 Tambahkan produk pertama ke keranjang
+2025-11-13 20:31:13,017 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:31:13,515 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:31:13,614 [INFO] 🔹 Tambahkan beberapa produk ke keranjang
+2025-11-13 20:31:14,768 [INFO] ✅ 4 produk berhasil ditambahkan ke cart
+2025-11-13 20:31:14,769 [INFO] 🔹 Buka halaman cart
+2025-11-13 20:31:14,799 [INFO] 🔹 Hapus 2 produk dari cart
+2025-11-13 20:31:15,875 [INFO] 🔹 Validasi jumlah produk setelah penghapusan
+2025-11-13 20:31:15,884 [INFO] ✅ Penghapusan sebagian produk berhasil, jumlah akhir sesuai!
+2025-11-13 20:31:16,046 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:31:16,535 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:31:16,651 [INFO] 🔹 Tambahkan produk ke keranjang
+2025-11-13 20:31:16,689 [INFO] 🔹 Validasi jumlah item di cart badge
+2025-11-13 20:31:16,693 [INFO] ✅ Produk berhasil ditambahkan ke cart!
+2025-11-13 20:31:16,845 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:31:17,429 [INFO] ✅ Login berhasil, memverifikasi halaman inventory
+2025-11-13 20:31:17,432 [INFO] 🔹 Memeriksa elemen utama halaman
+2025-11-13 20:31:17,440 [INFO] 📦 Jumlah produk ditemukan: 6
+2025-11-13 20:31:17,440 [INFO] 🔹 Membuka detail produk pertama
+2025-11-13 20:31:17,474 [INFO] ✅ Detail produk berhasil dibuka dan tombol back terlihat
+2025-11-13 20:31:17,521 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/66384736f2076d47b2e8e2b534a9d24c.webm
+2025-11-13 20:31:17,575 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'secret_sauce', 'expected_result': 'success'}
+2025-11-13 20:31:18,181 [INFO] ✅ Login sukses untuk user: standard_user
+2025-11-13 20:31:18,181 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:31:18,307 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/848aeb8e8aabe4889a22cec51838a02a.webm
+2025-11-13 20:31:18,366 [INFO] Memulai dummy test untuk chromium
+2025-11-13 20:31:20,837 [INFO] Menunggu sebentar agar video tidak kosong...
+2025-11-13 20:31:20,851 [INFO] ✅ Dummy video test sukses!
+2025-11-13 20:31:20,968 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/ade5dff9e742a6fee2d08b23912a22b0.webm
+2025-11-13 20:31:21,025 [INFO] 🔹 Testing login dengan: {'username': 'invalid_user', 'password': 'secret_sauce', 'expected_result': 'fail'}
+2025-11-13 20:31:21,628 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-13 20:31:21,628 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:31:21,671 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/9d6d1ee9d69b7b8f9471682e2088623a.webm
+2025-11-13 20:31:21,738 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'wrong_pass', 'expected_result': 'fail'}
+2025-11-13 20:31:22,323 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-13 20:31:22,323 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:31:22,368 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/7f29739c764b9b4fef308da98ed604fb.webm
+2025-11-13 20:33:46,836 [INFO] 🔹 Login ke SauceDemo
+2025-11-13 20:33:47,650 [INFO] 🧭 Tambahkan 6 produk lewat halaman detail
+2025-11-13 20:33:51,562 [INFO] 🛒 Buka halaman cart dan ubah quantity produk
+2025-11-13 20:33:51,676 [INFO] 💳 Lanjut ke proses checkout
+2025-11-13 20:33:51,931 [INFO] ✅ Checkout berhasil sampai halaman selesai
+2025-11-13 20:33:52,113 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:33:52,688 [INFO] 🧭 Tambahkan produk lewat detail page
+2025-11-13 20:33:56,392 [INFO] ✅ Semua produk dari detail page diverifikasi di cart
+2025-11-13 20:33:56,552 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:33:57,841 [INFO] 🛒 Tambahkan 6 produk ke keranjang
+2025-11-13 20:33:59,059 [INFO] 🧺 Buka halaman cart dan hapus 2 produk
+2025-11-13 20:34:00,183 [INFO] ✏️ Ubah quantity setiap produk menjadi 10
+2025-11-13 20:34:00,207 [INFO] ✅ Semua quantity berhasil diubah menjadi 10
+2025-11-13 20:34:00,207 [INFO] 🧾 Validasi bahwa total quantity per produk = 10
+2025-11-13 20:34:00,386 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:34:00,866 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:34:00,972 [INFO] 🔹 Tambahkan produk pertama ke keranjang
+2025-11-13 20:34:01,157 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:34:01,668 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:34:01,772 [INFO] 🔹 Tambahkan beberapa produk ke keranjang
+2025-11-13 20:34:02,926 [INFO] ✅ 4 produk berhasil ditambahkan ke cart
+2025-11-13 20:34:02,926 [INFO] 🔹 Buka halaman cart
+2025-11-13 20:34:02,952 [INFO] 🔹 Hapus 2 produk dari cart
+2025-11-13 20:34:04,033 [INFO] 🔹 Validasi jumlah produk setelah penghapusan
+2025-11-13 20:34:04,044 [INFO] ✅ Penghapusan sebagian produk berhasil, jumlah akhir sesuai!
+2025-11-13 20:34:04,210 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:34:04,691 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:34:04,805 [INFO] 🔹 Tambahkan produk ke keranjang
+2025-11-13 20:34:04,845 [INFO] 🔹 Validasi jumlah item di cart badge
+2025-11-13 20:34:04,849 [INFO] ✅ Produk berhasil ditambahkan ke cart!
+2025-11-13 20:34:05,000 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:34:05,836 [INFO] ✅ Login berhasil, memverifikasi halaman inventory
+2025-11-13 20:34:05,839 [INFO] 🔹 Memeriksa elemen utama halaman
+2025-11-13 20:34:05,852 [INFO] 📦 Jumlah produk ditemukan: 6
+2025-11-13 20:34:05,852 [INFO] 🔹 Membuka detail produk pertama
+2025-11-13 20:34:05,882 [INFO] ✅ Detail produk berhasil dibuka dan tombol back terlihat
+2025-11-13 20:34:05,997 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/9a9dffd2891cb29c45b5e3e30e5db182.webm
+2025-11-13 20:34:06,059 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'secret_sauce', 'expected_result': 'success'}
+2025-11-13 20:34:06,654 [INFO] ✅ Login sukses untuk user: standard_user
+2025-11-13 20:34:06,654 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:34:06,753 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/edee4e36541ca16317d807fe4f847c45.webm
+2025-11-13 20:34:06,806 [INFO] Memulai dummy test untuk chromium
+2025-11-13 20:34:09,331 [INFO] Menunggu sebentar agar video tidak kosong...
+2025-11-13 20:34:09,338 [INFO] ✅ Dummy video test sukses!
+2025-11-13 20:34:09,452 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/8845bce9666526d1098afde441e13c65.webm
+2025-11-13 20:34:09,512 [INFO] 🔹 Testing login dengan: {'username': 'invalid_user', 'password': 'secret_sauce', 'expected_result': 'fail'}
+2025-11-13 20:34:10,099 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-13 20:34:10,100 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:34:10,139 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/cad6bc39733d7432f9e7461b241266b0.webm
+2025-11-13 20:34:10,201 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'wrong_pass', 'expected_result': 'fail'}
+2025-11-13 20:34:10,776 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-13 20:34:10,777 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:34:10,819 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/efe2e0574bf2fc1f4cf373419c3d6aad.webm
+2025-11-13 20:34:41,488 [INFO] 🔹 Login ke SauceDemo
+2025-11-13 20:34:42,436 [INFO] 🧭 Tambahkan 6 produk lewat halaman detail
+2025-11-13 20:34:46,240 [INFO] 🛒 Buka halaman cart dan ubah quantity produk
+2025-11-13 20:34:46,356 [INFO] 💳 Lanjut ke proses checkout
+2025-11-13 20:34:46,610 [INFO] ✅ Checkout berhasil sampai halaman selesai
+2025-11-13 20:34:46,779 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:34:47,351 [INFO] 🧭 Tambahkan produk lewat detail page
+2025-11-13 20:34:50,997 [INFO] ✅ Semua produk dari detail page diverifikasi di cart
+2025-11-13 20:34:51,167 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:34:51,750 [INFO] 🛒 Tambahkan 6 produk ke keranjang
+2025-11-13 20:34:52,969 [INFO] 🧺 Buka halaman cart dan hapus 2 produk
+2025-11-13 20:34:54,099 [INFO] ✏️ Ubah quantity setiap produk menjadi 10
+2025-11-13 20:34:54,123 [INFO] ✅ Semua quantity berhasil diubah menjadi 10
+2025-11-13 20:34:54,123 [INFO] 🧾 Validasi bahwa total quantity per produk = 10
+2025-11-13 20:34:54,330 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:34:54,837 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:34:54,952 [INFO] 🔹 Tambahkan produk pertama ke keranjang
+2025-11-13 20:34:55,142 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:34:55,601 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:34:55,717 [INFO] 🔹 Tambahkan beberapa produk ke keranjang
+2025-11-13 20:34:56,868 [INFO] ✅ 4 produk berhasil ditambahkan ke cart
+2025-11-13 20:34:56,868 [INFO] 🔹 Buka halaman cart
+2025-11-13 20:34:56,903 [INFO] 🔹 Hapus 2 produk dari cart
+2025-11-13 20:34:57,979 [INFO] 🔹 Validasi jumlah produk setelah penghapusan
+2025-11-13 20:34:57,991 [INFO] ✅ Penghapusan sebagian produk berhasil, jumlah akhir sesuai!
+2025-11-13 20:34:58,134 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:34:58,631 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:34:58,734 [INFO] 🔹 Tambahkan produk ke keranjang
+2025-11-13 20:34:58,775 [INFO] 🔹 Validasi jumlah item di cart badge
+2025-11-13 20:34:58,780 [INFO] ✅ Produk berhasil ditambahkan ke cart!
+2025-11-13 20:34:58,940 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:34:59,532 [INFO] ✅ Login berhasil, memverifikasi halaman inventory
+2025-11-13 20:34:59,534 [INFO] 🔹 Memeriksa elemen utama halaman
+2025-11-13 20:34:59,543 [INFO] 📦 Jumlah produk ditemukan: 6
+2025-11-13 20:34:59,544 [INFO] 🔹 Membuka detail produk pertama
+2025-11-13 20:34:59,577 [INFO] ✅ Detail produk berhasil dibuka dan tombol back terlihat
+2025-11-13 20:34:59,659 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/484678bf914100b522efc168504546da.webm
+2025-11-13 20:34:59,717 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'secret_sauce', 'expected_result': 'success'}
+2025-11-13 20:35:00,283 [INFO] ✅ Login sukses untuk user: standard_user
+2025-11-13 20:35:00,283 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:35:00,380 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/5e226769d356060356d2cd39986383bf.webm
+2025-11-13 20:35:00,443 [INFO] Memulai dummy test untuk chromium
+2025-11-13 20:35:02,959 [INFO] Menunggu sebentar agar video tidak kosong...
+2025-11-13 20:35:02,968 [INFO] ✅ Dummy video test sukses!
+2025-11-13 20:35:03,097 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/451bc794bc11ba6903a755e493fe2c82.webm
+2025-11-13 20:35:03,155 [INFO] 🔹 Testing login dengan: {'username': 'invalid_user', 'password': 'secret_sauce', 'expected_result': 'fail'}
+2025-11-13 20:35:03,949 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-13 20:35:03,949 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:35:04,004 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/3fb55557423159385a9775f3fa0ae50d.webm
+2025-11-13 20:35:04,070 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'wrong_pass', 'expected_result': 'fail'}
+2025-11-13 20:35:04,676 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-13 20:35:04,677 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:35:04,717 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/97ef61d361c468b053ab553558e5c142.webm
+2025-11-13 20:36:23,014 [INFO] 🔹 Login ke SauceDemo
+2025-11-13 20:36:23,944 [INFO] 🧭 Tambahkan 6 produk lewat halaman detail
+2025-11-13 20:36:27,751 [INFO] 🛒 Buka halaman cart dan ubah quantity produk
+2025-11-13 20:36:27,867 [INFO] 💳 Lanjut ke proses checkout
+2025-11-13 20:36:28,120 [INFO] ✅ Checkout berhasil sampai halaman selesai
+2025-11-13 20:36:28,293 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:36:28,896 [INFO] 🧭 Tambahkan produk lewat detail page
+2025-11-13 20:36:32,538 [INFO] ✅ Semua produk dari detail page diverifikasi di cart
+2025-11-13 20:36:32,696 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:36:33,295 [INFO] 🛒 Tambahkan 6 produk ke keranjang
+2025-11-13 20:36:34,515 [INFO] 🧺 Buka halaman cart dan hapus 2 produk
+2025-11-13 20:36:35,629 [INFO] ✏️ Ubah quantity setiap produk menjadi 10
+2025-11-13 20:36:35,651 [INFO] ✅ Semua quantity berhasil diubah menjadi 10
+2025-11-13 20:36:35,651 [INFO] 🧾 Validasi bahwa total quantity per produk = 10
+2025-11-13 20:36:35,830 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:36:36,320 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:36:36,427 [INFO] 🔹 Tambahkan produk pertama ke keranjang
+2025-11-13 20:36:36,612 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:36:37,105 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:36:37,212 [INFO] 🔹 Tambahkan beberapa produk ke keranjang
+2025-11-13 20:36:38,368 [INFO] ✅ 4 produk berhasil ditambahkan ke cart
+2025-11-13 20:36:38,368 [INFO] 🔹 Buka halaman cart
+2025-11-13 20:36:38,396 [INFO] 🔹 Hapus 2 produk dari cart
+2025-11-13 20:36:39,473 [INFO] 🔹 Validasi jumlah produk setelah penghapusan
+2025-11-13 20:36:39,484 [INFO] ✅ Penghapusan sebagian produk berhasil, jumlah akhir sesuai!
+2025-11-13 20:36:39,622 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:36:40,111 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:36:40,210 [INFO] 🔹 Tambahkan produk ke keranjang
+2025-11-13 20:36:40,235 [INFO] 🔹 Validasi jumlah item di cart badge
+2025-11-13 20:36:40,239 [INFO] ✅ Produk berhasil ditambahkan ke cart!
+2025-11-13 20:36:40,373 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:36:40,975 [INFO] ✅ Login berhasil, memverifikasi halaman inventory
+2025-11-13 20:36:40,978 [INFO] 🔹 Memeriksa elemen utama halaman
+2025-11-13 20:36:40,988 [INFO] 📦 Jumlah produk ditemukan: 6
+2025-11-13 20:36:40,988 [INFO] 🔹 Membuka detail produk pertama
+2025-11-13 20:36:41,023 [INFO] ✅ Detail produk berhasil dibuka dan tombol back terlihat
+2025-11-13 20:36:41,114 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/8a6516e1f9ff2626f9e9f6ab1e2e8045.webm
+2025-11-13 20:36:41,166 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'secret_sauce', 'expected_result': 'success'}
+2025-11-13 20:36:41,743 [INFO] ✅ Login sukses untuk user: standard_user
+2025-11-13 20:36:41,743 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:36:41,840 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/c332a705e42ab151255ac2e505ab882e.webm
+2025-11-13 20:36:41,902 [INFO] Memulai dummy test untuk chromium
+2025-11-13 20:36:44,381 [INFO] Menunggu sebentar agar video tidak kosong...
+2025-11-13 20:36:44,389 [INFO] ✅ Dummy video test sukses!
+2025-11-13 20:36:44,506 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/cc32a5e9b2b7469c6a63ff46fb9c60fd.webm
+2025-11-13 20:36:44,563 [INFO] 🔹 Testing login dengan: {'username': 'invalid_user', 'password': 'secret_sauce', 'expected_result': 'fail'}
+2025-11-13 20:36:45,175 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-13 20:36:45,175 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:36:45,210 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/74467f5298a219eeb31a293a51e8b00d.webm
+2025-11-13 20:36:45,272 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'wrong_pass', 'expected_result': 'fail'}
+2025-11-13 20:36:45,853 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-13 20:36:45,853 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:36:45,894 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/fa77ffea6824143838dd28c589620869.webm
+2025-11-13 20:37:30,405 [INFO] 🔹 Login ke SauceDemo
+2025-11-13 20:37:31,378 [INFO] 🧭 Tambahkan 6 produk lewat halaman detail
+2025-11-13 20:37:35,180 [INFO] 🛒 Buka halaman cart dan ubah quantity produk
+2025-11-13 20:37:35,296 [INFO] 💳 Lanjut ke proses checkout
+2025-11-13 20:37:35,550 [INFO] ✅ Checkout berhasil sampai halaman selesai
+2025-11-13 20:37:35,730 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:37:36,345 [INFO] 🧭 Tambahkan produk lewat detail page
+2025-11-13 20:37:40,011 [INFO] ✅ Semua produk dari detail page diverifikasi di cart
+2025-11-13 20:37:40,156 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:37:40,855 [INFO] 🛒 Tambahkan 6 produk ke keranjang
+2025-11-13 20:37:42,096 [INFO] 🧺 Buka halaman cart dan hapus 2 produk
+2025-11-13 20:37:43,203 [INFO] ✏️ Ubah quantity setiap produk menjadi 10
+2025-11-13 20:37:43,223 [INFO] ✅ Semua quantity berhasil diubah menjadi 10
+2025-11-13 20:37:43,224 [INFO] 🧾 Validasi bahwa total quantity per produk = 10
+2025-11-13 20:37:43,454 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:37:43,992 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:37:44,107 [INFO] 🔹 Tambahkan produk pertama ke keranjang
+2025-11-13 20:37:44,279 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:37:44,788 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:37:44,875 [INFO] 🔹 Tambahkan beberapa produk ke keranjang
+2025-11-13 20:37:46,029 [INFO] ✅ 4 produk berhasil ditambahkan ke cart
+2025-11-13 20:37:46,030 [INFO] 🔹 Buka halaman cart
+2025-11-13 20:37:46,058 [INFO] 🔹 Hapus 2 produk dari cart
+2025-11-13 20:37:47,134 [INFO] 🔹 Validasi jumlah produk setelah penghapusan
+2025-11-13 20:37:47,144 [INFO] ✅ Penghapusan sebagian produk berhasil, jumlah akhir sesuai!
+2025-11-13 20:37:47,301 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:37:47,748 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:37:47,839 [INFO] 🔹 Tambahkan produk ke keranjang
+2025-11-13 20:37:47,880 [INFO] 🔹 Validasi jumlah item di cart badge
+2025-11-13 20:37:47,885 [INFO] ✅ Produk berhasil ditambahkan ke cart!
+2025-11-13 20:37:48,031 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:37:48,605 [INFO] ✅ Login berhasil, memverifikasi halaman inventory
+2025-11-13 20:37:48,608 [INFO] 🔹 Memeriksa elemen utama halaman
+2025-11-13 20:37:48,617 [INFO] 📦 Jumlah produk ditemukan: 6
+2025-11-13 20:37:48,617 [INFO] 🔹 Membuka detail produk pertama
+2025-11-13 20:37:48,651 [INFO] ✅ Detail produk berhasil dibuka dan tombol back terlihat
+2025-11-13 20:37:48,729 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/0a3777c46cea33b0dd8c75cbafb4ffe8.webm
+2025-11-13 20:37:48,781 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'secret_sauce', 'expected_result': 'success'}
+2025-11-13 20:37:49,391 [INFO] ✅ Login sukses untuk user: standard_user
+2025-11-13 20:37:49,391 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:37:49,482 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/034cb77a8a43a3f837afe12807d5ee18.webm
+2025-11-13 20:37:49,547 [INFO] Memulai dummy test untuk chromium
+2025-11-13 20:37:52,019 [INFO] Menunggu sebentar agar video tidak kosong...
+2025-11-13 20:37:52,028 [INFO] ✅ Dummy video test sukses!
+2025-11-13 20:37:52,166 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/2a80df4c6bdb5d0afaf88eee1f4241cb.webm
+2025-11-13 20:37:52,225 [INFO] 🔹 Testing login dengan: {'username': 'invalid_user', 'password': 'secret_sauce', 'expected_result': 'fail'}
+2025-11-13 20:37:52,816 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-13 20:37:52,816 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:37:52,855 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/534ed7cda3a8296b09d07fc344e9699d.webm
+2025-11-13 20:37:52,909 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'wrong_pass', 'expected_result': 'fail'}
+2025-11-13 20:37:53,533 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-13 20:37:53,534 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:37:53,573 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/99c3b685d9e6e8d3ae4a4ce28c624cfe.webm
+2025-11-13 20:48:13,903 [INFO] 🔹 Login ke SauceDemo
+2025-11-13 20:48:14,883 [INFO] 🧭 Tambahkan 6 produk lewat halaman detail
+2025-11-13 20:48:18,657 [INFO] 🛒 Buka halaman cart dan ubah quantity produk
+2025-11-13 20:48:18,774 [INFO] 💳 Lanjut ke proses checkout
+2025-11-13 20:48:19,212 [INFO] ✅ Checkout berhasil sampai halaman selesai
+2025-11-13 20:48:19,453 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:48:20,072 [INFO] 🧭 Tambahkan produk lewat detail page
+2025-11-13 20:48:23,711 [INFO] ✅ Semua produk dari detail page diverifikasi di cart
+2025-11-13 20:48:23,900 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:48:24,605 [INFO] 🛒 Tambahkan 6 produk ke keranjang
+2025-11-13 20:48:25,820 [INFO] 🧺 Buka halaman cart dan hapus 2 produk
+2025-11-13 20:48:26,934 [INFO] ✏️ Ubah quantity setiap produk menjadi 10
+2025-11-13 20:48:26,951 [INFO] ✅ Semua quantity berhasil diubah menjadi 10
+2025-11-13 20:48:26,951 [INFO] 🧾 Validasi bahwa total quantity per produk = 10
+2025-11-13 20:48:27,272 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:48:27,777 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:48:27,891 [INFO] 🔹 Tambahkan produk pertama ke keranjang
+2025-11-13 20:48:28,092 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 20:48:28,899 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:48:29,017 [INFO] 🔹 Tambahkan beberapa produk ke keranjang
+2025-11-13 20:48:30,169 [INFO] ✅ 4 produk berhasil ditambahkan ke cart
+2025-11-13 20:48:30,170 [INFO] 🔹 Buka halaman cart
+2025-11-13 20:48:30,193 [INFO] 🔹 Hapus 2 produk dari cart
+2025-11-13 20:48:31,259 [INFO] 🔹 Validasi jumlah produk setelah penghapusan
+2025-11-13 20:48:31,271 [INFO] ✅ Penghapusan sebagian produk berhasil, jumlah akhir sesuai!
+2025-11-13 20:48:31,426 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:48:31,929 [INFO] 🔹 Login dengan akun valid
+2025-11-13 20:48:32,032 [INFO] 🔹 Tambahkan produk ke keranjang
+2025-11-13 20:48:32,071 [INFO] 🔹 Validasi jumlah item di cart badge
+2025-11-13 20:48:32,074 [INFO] ✅ Produk berhasil ditambahkan ke cart!
+2025-11-13 20:48:32,229 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 20:48:32,863 [INFO] ✅ Login berhasil, memverifikasi halaman inventory
+2025-11-13 20:48:32,865 [INFO] 🔹 Memeriksa elemen utama halaman
+2025-11-13 20:48:32,876 [INFO] 📦 Jumlah produk ditemukan: 6
+2025-11-13 20:48:32,876 [INFO] 🔹 Membuka detail produk pertama
+2025-11-13 20:48:32,910 [INFO] ✅ Detail produk berhasil dibuka dan tombol back terlihat
+2025-11-13 20:48:32,964 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/c02fbc17a0c3526af6a8c1eecf64cced.webm
+2025-11-13 20:48:33,018 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'secret_sauce', 'expected_result': 'success'}
+2025-11-13 20:48:33,849 [INFO] ✅ Login sukses untuk user: standard_user
+2025-11-13 20:48:33,849 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:48:33,949 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/5f221f1e33a7b24b7407346340a5b91f.webm
+2025-11-13 20:48:34,022 [INFO] Memulai dummy test untuk chromium
+2025-11-13 20:48:36,701 [INFO] Menunggu sebentar agar video tidak kosong...
+2025-11-13 20:48:36,714 [INFO] ✅ Dummy video test sukses!
+2025-11-13 20:48:36,826 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/f264f260df48c3b9286feee45fda127f.webm
+2025-11-13 20:48:36,887 [INFO] 🔹 Testing login dengan: {'username': 'invalid_user', 'password': 'secret_sauce', 'expected_result': 'fail'}
+2025-11-13 20:48:37,610 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-13 20:48:37,610 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:48:37,647 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/add36962dc81e72252a89bc6286e2880.webm
+2025-11-13 20:48:37,719 [INFO] 🔹 Testing login dengan: {'username': 'standard_user', 'password': 'wrong_pass', 'expected_result': 'fail'}
+2025-11-13 20:48:38,288 [WARNING] ⚠️ Login gagal sesuai ekspektasi: Epic sadface: Username and password do not match any user in this service
+2025-11-13 20:48:38,288 [INFO] 📋 Test selesai untuk satu kombinasi data.
+2025-11-13 20:48:38,329 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/dfbc3feda260229bd24e575c98f40ac7.webm
