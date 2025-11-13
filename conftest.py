@@ -8,8 +8,9 @@ import pytest
 # === SETUP GLOBAL ===
 def pytest_configure(config):
     """Buat folder laporan dan setup logger global"""
-    for folder in ["reports/screenshots", "reports/videos", "reports/logs"]:
-        Path(folder).mkdir(parents=True, exist_ok=True)
+    Path("reports/screenshots").mkdir(parents=True, exist_ok=True)
+    Path("reports/videos").mkdir(parents=True, exist_ok=True)
+    Path("reports/logs").mkdir(parents=True, exist_ok=True)
 
     logging.basicConfig(
         level=logging.INFO,
@@ -23,9 +24,9 @@ def pytest_configure(config):
 
 @pytest.fixture(scope="function", autouse=True)
 def per_test_logger(request):
-    """Logger unik per test"""
-    log_path = Path(f"reports/logs/{request.node.name}.log")
-    handler = logging.FileHandler(log_path, mode="w", encoding="utf-8")
+    """Buat logger unik untuk setiap test"""
+    log_file = Path(f"reports/logs/{request.node.name}.log")
+    handler = logging.FileHandler(log_file, mode="w", encoding="utf-8")
     handler.setFormatter(logging.Formatter("%(asctime)s [%(levelname)s] %(message)s"))
     logger = logging.getLogger(request.node.name)
     logger.setLevel(logging.INFO)
@@ -34,36 +35,38 @@ def per_test_logger(request):
     handler.close()
     logger.removeHandler(handler)
 
+
 @pytest.fixture(scope="function")
-def record_page(browser):
-    """Buka page baru dengan video recording per test"""
+def record_page(browser, request):
+    """Buka page baru dengan video recording dan pastikan tersimpan"""
+    test_name = request.node.name
     videos_dir = Path("reports/videos")
     videos_dir.mkdir(parents=True, exist_ok=True)
 
-    # Gunakan context dengan video recording
     context = browser.new_context(record_video_dir=str(videos_dir))
     page = context.new_page()
-
     yield page
 
-    # Tutup dan pastikan video tersimpan
+    # Tutup page dan context dengan aman
     try:
-        video_path = None
-        if page.video:
-            video_path = page.video.path()
         page.close()
         context.close()
-
-        # Tunggu agar file benar-benar tersimpan
-        if video_path:
-            import time
-            time.sleep(1)
-            if Path(video_path).exists() and Path(video_path).stat().st_size > 0:
-                logging.info(f"🎥 Video tersimpan di: {video_path}")
-            else:
-                logging.warning("⚠️ File video kosong atau belum siap.")
     except Exception as e:
         logging.warning(f"Gagal menutup context/video: {e}")
+
+    # Tunggu video selesai disimpan (Playwright flush async)
+    try:
+        if hasattr(page, "video") and page.video:
+            path = page.video.path()
+            for _ in range(30):  # cek max 3 detik
+                if Path(path).exists() and Path(path).stat().st_size > 0:
+                    logging.info(f"Video tersimpan: {path}")
+                    break
+                import time; time.sleep(0.1)
+    except Exception as e:
+        logging.warning(f"Gagal membaca path video: {e}")
+
+
 
 # === HOOK UNTUK HTML REPORT ===
 @pytest.hookimpl(hookwrapper=True)
@@ -83,34 +86,36 @@ def pytest_runtest_makereport(item, call):
     status_icon = "✅" if rep.passed else "❌"
     duration = f"{rep.duration:.2f}s"
 
-    # === Screenshot ===
+    # --- SCREENSHOT ---
     screenshot_path = Path("reports/screenshots") / f"{item.name}_{datetime.now():%Y%m%d_%H%M%S}.png"
     encoded_img = ""
-    if page:
-        try:
-            if not page.is_closed():
-                page.screenshot(path=screenshot_path, full_page=True)
-                with open(screenshot_path, "rb") as f:
-                    encoded_img = base64.b64encode(f.read()).decode("utf-8")
-        except Exception as e:
-            logging.warning(f"Gagal ambil screenshot: {e}")
+    try:
+        if page and not page.is_closed():
+            page.screenshot(path=screenshot_path, full_page=True)
+            with open(screenshot_path, "rb") as f:
+                encoded_img = base64.b64encode(f.read()).decode("utf-8")
+    except Exception as e:
+        logging.warning(f"Gagal ambil screenshot: {e}")
 
-    # --- VIDEO (ambil yang terbaru) ---
+    # --- VIDEO FIX FINAL ---
     encoded_video = ""
     video_message = ""
-
     try:
-        vids = sorted(Path("reports/videos").glob("*.webm"), key=lambda x: x.stat().st_mtime, reverse=True)
-        if vids and vids[0].exists() and vids[0].stat().st_size > 0:
-            with open(vids[0], "rb") as v:
+        video_path = None
+        if page and hasattr(page, "video") and page.video:
+            try:
+                video_path = page.video.path()
+            except Exception:
+                pass
+
+        if video_path and Path(video_path).is_file() and Path(video_path).stat().st_size > 1024:
+            with open(video_path, "rb") as v:
                 encoded_video = base64.b64encode(v.read()).decode("utf-8")
         else:
             video_message = "⚠️ Video tidak tersedia (file kosong atau gagal direkam)"
     except Exception as e:
-        logging.warning(f"Gagal ambil video: {e}")
         video_message = f"⚠️ Gagal memuat video: {e}"
 
-    # Buat HTML video
     if encoded_video:
         video_html = f"""
         <video width="100%" controls style="border-radius:8px;">
@@ -125,14 +130,14 @@ def pytest_runtest_makereport(item, call):
         </div>
         """
 
-    # === Log ===
+    # --- LOG ---
     log_file = Path(f"reports/logs/{item.name}.log")
     log_html = "Tidak ada log."
     if log_file.exists():
         with open(log_file, "r", encoding="utf-8") as f:
             lines = f.readlines()
-            colored = []
-            for line in lines[-80:]:
+            formatted = []
+            for line in lines:
                 color = "#ccc"
                 if "ERROR" in line:
                     color = "#ff6b6b"
@@ -140,10 +145,10 @@ def pytest_runtest_makereport(item, call):
                     color = "#ffd166"
                 elif "INFO" in line:
                     color = "#06d6a0"
-                colored.append(f'<span style="color:{color};">{line.strip()}</span>')
-            log_html = "<br>".join(colored)
+                formatted.append(f'<span style="color:{color};">{line.strip()}</span>')
+            log_html = "<br>".join(formatted[-60:])
 
-    # === HTML BLOK ===
+    # --- HTML TEST RESULT ---
     html_block = f"""
 <div class="summary-box">
   <b>{status_icon} {item.name}</b> &nbsp;&nbsp; ⏱ {duration}
@@ -158,11 +163,11 @@ def pytest_runtest_makereport(item, call):
       <b>📸 Screenshot:</b><br>
       <img src="data:image/png;base64,{encoded_img}" style="max-width:100%; border-radius:8px;">
     </div>
+
     <div class="flex-item" style="text-align:center;">
       <b>🎥 Video Test:</b><br>
       {video_html}
     </div>
-
 
     <div class="flex-item">
       <b>🧾 Log:</b><br>
@@ -177,7 +182,7 @@ def pytest_runtest_makereport(item, call):
     rep.extras = extras
 
 
-# === Tambahan JS + CSS untuk toggle detail ===
+# === JS + CSS UNTUK REPORT.HTML ===
 def pytest_html_results_summary(prefix, summary, postfix):
     prefix.extend([ """
     <script>
@@ -209,6 +214,10 @@ def pytest_html_results_summary(prefix, summary, postfix):
       padding:4px 10px;
       cursor:pointer;
       font-size:12px;
+      transition: background-color 0.2s ease;
+    }
+    .toggle-detail:hover {
+      background:#005ea6;
     }
     .detail-content {
       display:none;

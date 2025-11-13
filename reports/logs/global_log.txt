@@ -157,3 +157,113 @@
 2025-11-12 20:14:56,210 [INFO] 🔹 Membuka detail produk pertama
 2025-11-12 20:14:56,300 [INFO] ✅ Detail produk berhasil dibuka dan tombol back terlihat
 2025-11-12 20:14:57,406 [INFO] 🎥 Video tersimpan di: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/d2eb2847b75e3e5eaab8afc500c0d964.webm
+2025-11-13 17:16:07,983 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 17:16:09,415 [INFO] ✅ Login berhasil, memverifikasi halaman inventory
+2025-11-13 17:16:09,422 [INFO] 🔹 Memeriksa elemen utama halaman
+2025-11-13 17:16:09,475 [INFO] 📦 Jumlah produk ditemukan: 6
+2025-11-13 17:16:09,476 [INFO] 🔹 Membuka detail produk pertama
+2025-11-13 17:16:09,604 [INFO] ✅ Detail produk berhasil dibuka dan tombol back terlihat
+2025-11-13 17:20:15,474 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 17:20:16,950 [INFO] ✅ Login berhasil, memverifikasi halaman inventory
+2025-11-13 17:20:16,961 [INFO] 🔹 Memeriksa elemen utama halaman
+2025-11-13 17:20:17,021 [INFO] 📦 Jumlah produk ditemukan: 6
+2025-11-13 17:20:17,022 [INFO] 🔹 Membuka detail produk pertama
+2025-11-13 17:20:17,110 [INFO] ✅ Detail produk berhasil dibuka dan tombol back terlihat
+2025-11-13 17:54:43,511 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 17:54:44,843 [INFO] ✅ Login berhasil, memverifikasi halaman inventory
+2025-11-13 17:54:44,850 [INFO] 🔹 Memeriksa elemen utama halaman
+2025-11-13 17:54:44,973 [INFO] 📦 Jumlah produk ditemukan: 6
+2025-11-13 17:54:44,974 [INFO] 🔹 Membuka detail produk pertama
+2025-11-13 17:54:45,073 [INFO] ✅ Detail produk berhasil dibuka dan tombol back terlihat
+2025-11-13 17:54:45,179 [INFO] Video tersimpan di: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/245f33d88bf0799ee9614441a18f19c0.webm
+2025-11-13 17:58:30,978 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 17:58:32,079 [INFO] ✅ Login berhasil, memverifikasi halaman inventory
+2025-11-13 17:58:32,092 [INFO] 🔹 Memeriksa elemen utama halaman
+2025-11-13 17:58:32,113 [INFO] 📦 Jumlah produk ditemukan: 6
+2025-11-13 17:58:32,113 [INFO] 🔹 Membuka detail produk pertama
+2025-11-13 17:58:32,213 [INFO] ✅ Detail produk berhasil dibuka dan tombol back terlihat
+2025-11-13 17:58:32,334 [INFO] Video tersimpan: /Users/rendasantana/Rnd/pw_saucedemo/reports/videos/c223af8627a11c206595e7855de9a84f.webm
+2025-11-13 18:06:53,891 [INFO] ✅ Login berhasil
+2025-11-13 18:12:45,675 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 18:12:46,578 [INFO] 🔹 Login dengan akun valid
+2025-11-13 18:12:46,762 [INFO] 🔹 Tambahkan produk ke keranjang
+2025-11-13 18:12:46,797 [INFO] 🔹 Validasi jumlah item di cart badge
+2025-11-13 18:12:46,801 [INFO] ✅ Produk berhasil ditambahkan ke cart!
+2025-11-13 18:16:38,672 [INFO] 🔹 Navigasi ke halaman login
+2025-11-13 18:16:39,543 [INFO] 🔹 Login dengan akun valid
+2025-11-13 18:16:39,846 [INFO] 🔹 Tambahkan produk pertama ke keranjang
+2025-11-13 18:16:39,883 [INFO] ✅ Produk berhasil ditambahkan ke keranjang
+2025-11-13 18:16:39,883 [INFO] 🔹 Buka halaman cart
+2025-11-13 18:16:39,980 [INFO] 🔹 Hapus produk dari cart
+2025-11-13 18:16:39,992 [INFO] 🔹 Validasi cart kembali kosong
+2025-11-13 18:16:39,994 [INFO] ✅ Produk berhasil dihapus dari cart!
+2025-11-13 18:42:18,673 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 18:42:19,401 [INFO] 🔹 Login dengan akun valid
+2025-11-13 18:42:19,602 [INFO] 🔹 Tambahkan beberapa produk ke keranjang
+2025-11-13 18:42:19,739 [INFO] ✅ 4 produk berhasil ditambahkan ke cart
+2025-11-13 18:42:19,739 [INFO] 🔹 Buka halaman cart
+2025-11-13 18:42:19,817 [INFO] 🔹 Hapus 2 produk dari cart
+2025-11-13 18:42:19,869 [INFO] 🔹 Validasi jumlah produk setelah penghapusan
+2025-11-13 18:42:19,872 [INFO] ✅ Penghapusan sebagian produk berhasil, jumlah akhir sesuai!
+2025-11-13 18:42:59,564 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 18:43:00,253 [INFO] 🔹 Login dengan akun valid
+2025-11-13 18:43:00,453 [INFO] 🔹 Tambahkan beberapa produk ke keranjang
+2025-11-13 18:46:00,382 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 18:46:01,074 [INFO] 🔹 Login dengan akun valid
+2025-11-13 18:46:01,289 [INFO] 🔹 Tambahkan beberapa produk ke keranjang
+2025-11-13 18:46:01,434 [INFO] ✅ 4 produk berhasil ditambahkan ke cart
+2025-11-13 18:46:01,434 [INFO] 🔹 Buka halaman cart
+2025-11-13 18:46:01,513 [INFO] 🔹 Hapus 2 produk dari cart
+2025-11-13 18:46:01,564 [INFO] 🔹 Validasi jumlah produk setelah penghapusan
+2025-11-13 18:46:01,567 [INFO] ✅ Penghapusan sebagian produk berhasil, jumlah akhir sesuai!
+2025-11-13 18:46:02,072 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 18:46:02,920 [INFO] 🔹 Tambahkan 40 produk (atau sebanyak yang tersedia)
+2025-11-13 18:46:03,101 [INFO] ✅ 6 produk berhasil ditambahkan ke cart (maksimum tersedia)
+2025-11-13 18:46:03,182 [INFO] 🔹 Hapus 10 produk dari cart
+2025-11-13 19:04:59,138 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 19:04:59,923 [INFO] 🔹 Login dengan akun valid
+2025-11-13 19:05:00,130 [INFO] 🔹 Tambahkan beberapa produk ke keranjang
+2025-11-13 19:05:00,263 [INFO] ✅ 4 produk berhasil ditambahkan ke cart
+2025-11-13 19:05:00,264 [INFO] 🔹 Buka halaman cart
+2025-11-13 19:05:00,347 [INFO] 🔹 Hapus 2 produk dari cart
+2025-11-13 19:05:00,392 [INFO] 🔹 Validasi jumlah produk setelah penghapusan
+2025-11-13 19:05:00,395 [INFO] ✅ Penghapusan sebagian produk berhasil, jumlah akhir sesuai!
+2025-11-13 19:05:00,812 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 19:05:01,597 [INFO] 🔹 Tambahkan 40 produk (atau sebanyak yang tersedia)
+2025-11-13 19:05:01,794 [INFO] ✅ 6 produk berhasil ditambahkan ke cart (maksimum tersedia)
+2025-11-13 19:05:01,874 [INFO] 🔹 Hapus 10 produk dari cart
+2025-11-13 19:11:15,113 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 19:11:16,017 [INFO] 🛒 Tambahkan 6 produk ke keranjang
+2025-11-13 19:11:17,248 [INFO] 🧺 Buka halaman cart dan hapus 2 produk
+2025-11-13 19:11:18,424 [INFO] ✏️ Ubah quantity setiap produk menjadi 10
+2025-11-13 19:11:18,452 [INFO] ✅ Semua quantity berhasil diubah menjadi 10
+2025-11-13 19:11:18,453 [INFO] 🧾 Validasi bahwa total quantity per produk = 10
+2025-11-13 19:12:04,822 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 19:12:05,462 [INFO] 🔹 Login dengan akun valid
+2025-11-13 19:12:05,661 [INFO] 🔹 Tambahkan beberapa produk ke keranjang
+2025-11-13 19:12:06,811 [INFO] ✅ 4 produk berhasil ditambahkan ke cart
+2025-11-13 19:12:06,811 [INFO] 🔹 Buka halaman cart
+2025-11-13 19:12:06,900 [INFO] 🔹 Hapus 2 produk dari cart
+2025-11-13 19:12:07,968 [INFO] 🔹 Validasi jumlah produk setelah penghapusan
+2025-11-13 19:12:07,979 [INFO] ✅ Penghapusan sebagian produk berhasil, jumlah akhir sesuai!
+2025-11-13 19:12:08,348 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 19:12:09,165 [INFO] 🔹 Tambahkan 40 produk (atau sebanyak yang tersedia)
+2025-11-13 19:12:10,381 [INFO] ✅ 6 produk berhasil ditambahkan ke cart (maksimum tersedia)
+2025-11-13 19:12:10,488 [INFO] 🔹 Hapus 10 produk dari cart
+2025-11-13 19:12:51,112 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 19:12:51,746 [INFO] 🔹 Login dengan akun valid
+2025-11-13 19:12:51,964 [INFO] 🔹 Tambahkan beberapa produk ke keranjang
+2025-11-13 19:12:53,100 [INFO] ✅ 4 produk berhasil ditambahkan ke cart
+2025-11-13 19:12:53,100 [INFO] 🔹 Buka halaman cart
+2025-11-13 19:12:53,199 [INFO] 🔹 Hapus 2 produk dari cart
+2025-11-13 19:12:54,268 [INFO] 🔹 Validasi jumlah produk setelah penghapusan
+2025-11-13 19:12:54,276 [INFO] ✅ Penghapusan sebagian produk berhasil, jumlah akhir sesuai!
+2025-11-13 19:30:44,683 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 19:30:45,534 [INFO] 🧭 Tambahkan produk melalui detail page (1 per 1)
+2025-11-13 19:33:03,567 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 19:33:05,068 [INFO] 🧭 Tambahkan produk melalui detail page (1 per 1)
+2025-11-13 19:35:30,533 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 19:35:31,404 [INFO] 🧭 Tambahkan produk melalui detail page (1 per 1)
+2025-11-13 19:37:44,281 [INFO] 🔹 Buka halaman login SauceDemo
+2025-11-13 19:37:45,097 [INFO] 🧭 Tambahkan produk melalui detail page (1 per 1)
+2025-11-13 19:37:49,219 [INFO] ✅ Total produk di cart: 6
