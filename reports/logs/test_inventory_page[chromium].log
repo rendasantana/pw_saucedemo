@@ -1,6 +1,6 @@
-2025-11-13 20:48:32,229 [INFO] 🔹 Navigasi ke halaman login
-2025-11-13 20:48:32,863 [INFO] ✅ Login berhasil, memverifikasi halaman inventory
-2025-11-13 20:48:32,865 [INFO] 🔹 Memeriksa elemen utama halaman
-2025-11-13 20:48:32,876 [INFO] 📦 Jumlah produk ditemukan: 6
-2025-11-13 20:48:32,876 [INFO] 🔹 Membuka detail produk pertama
-2025-11-13 20:48:32,910 [INFO] ✅ Detail produk berhasil dibuka dan tombol back terlihat
+2025-11-14 17:31:48,231 [INFO] 🔹 Navigasi ke halaman login
+2025-11-14 17:31:48,795 [INFO] ✅ Login berhasil, memverifikasi halaman inventory
+2025-11-14 17:31:48,797 [INFO] 🔹 Memeriksa elemen utama halaman
+2025-11-14 17:31:48,807 [INFO] 📦 Jumlah produk ditemukan: 6
+2025-11-14 17:31:48,807 [INFO] 🔹 Membuka detail produk pertama
+2025-11-14 17:31:48,840 [INFO] ✅ Detail produk berhasil dibuka dan tombol back terlihat

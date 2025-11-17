@@ -3,12 +3,12 @@ import base64
 from datetime import datetime
 from pathlib import Path
 import pytest
-import subprocess
 import os
+from bs4 import BeautifulSoup
 
-
-
-# === SETUP GLOBAL ===
+# ==========================
+# GLOBAL SETUP
+# ==========================
 def pytest_configure(config):
     """Buat folder laporan dan setup logger global"""
     Path("reports/screenshots").mkdir(parents=True, exist_ok=True)
@@ -24,7 +24,9 @@ def pytest_configure(config):
         ]
     )
 
-
+# ==========================
+# PER-TEST LOGGER
+# ==========================
 @pytest.fixture(scope="function", autouse=True)
 def per_test_logger(request):
     """Buat logger unik untuk setiap test"""
@@ -38,11 +40,12 @@ def per_test_logger(request):
     handler.close()
     logger.removeHandler(handler)
 
-
+# ==========================
+# RECORD PAGE FIXTURE
+# ==========================
 @pytest.fixture(scope="function")
 def record_page(browser, request):
-    """Buka page baru dengan video recording dan pastikan tersimpan"""
-    test_name = request.node.name
+    """Buka page baru dengan video recording"""
     videos_dir = Path("reports/videos")
     videos_dir.mkdir(parents=True, exist_ok=True)
 
@@ -50,28 +53,15 @@ def record_page(browser, request):
     page = context.new_page()
     yield page
 
-    # Tutup page dan context dengan aman
     try:
         page.close()
         context.close()
     except Exception as e:
         logging.warning(f"Gagal menutup context/video: {e}")
 
-    # Tunggu video selesai disimpan (Playwright flush async)
-    try:
-        if hasattr(page, "video") and page.video:
-            path = page.video.path()
-            for _ in range(30):  # cek max 3 detik
-                if Path(path).exists() and Path(path).stat().st_size > 0:
-                    logging.info(f"Video tersimpan: {path}")
-                    break
-                import time; time.sleep(0.1)
-    except Exception as e:
-        logging.warning(f"Gagal membaca path video: {e}")
-
-
-
-# === HOOK UNTUK HTML REPORT ===
+# ==========================
+# HOOK UNTUK HTML REPORT
+# ==========================
 @pytest.hookimpl(hookwrapper=True)
 def pytest_runtest_makereport(item, call):
     """Tambahkan screenshot, video, dan log di report"""
@@ -100,7 +90,7 @@ def pytest_runtest_makereport(item, call):
     except Exception as e:
         logging.warning(f"Gagal ambil screenshot: {e}")
 
-    # --- VIDEO FIX FINAL ---
+    # --- VIDEO ---
     encoded_video = ""
     video_message = ""
     try:
@@ -184,8 +174,9 @@ def pytest_runtest_makereport(item, call):
     extras.append(pytest_html.extras.html(html_block))
     rep.extras = extras
 
-
-# === JS + CSS UNTUK REPORT.HTML ===
+# ==========================
+# JS + CSS UNTUK HTML REPORT
+# ==========================
 def pytest_html_results_summary(prefix, summary, postfix):
     prefix.extend([ """
     <script>
@@ -247,12 +238,35 @@ def pytest_html_results_summary(prefix, summary, postfix):
     </style>
     """ ])
 
+# ==========================
+# VALIDASI HTML REPORT SESI AKHIR
+# ==========================
 def pytest_sessionfinish(session, exitstatus):
-    """Jalankan validasi otomatis setelah semua test selesai."""
-    report_path = os.path.join("reports", "report.html")
+    report_path = os.path.join(session.config.rootdir, "reports", "report.html")
+    if not os.path.exists(report_path):
+        print("⚠️ report.html tidak ditemukan!")
+        return
 
-    if os.path.exists(report_path):
-        print("\n🔎 Menjalankan validasi report.html otomatis (final stage)...\n")
-        subprocess.run(["python", "validate_report.py"], check=False)
-    else:
-        print("⚠️ File report.html belum dibuat, validasi dilewati.")
+    with open(report_path, "r", encoding="utf-8") as f:
+        html = f.read()
+
+    soup = BeautifulSoup(html, "html.parser")
+    passed  = len(soup.select("tr.passed"))
+    failed  = len(soup.select("tr.failed"))
+    error   = len(soup.select("tr.error"))
+    skipped = len(soup.select("tr.skipped"))
+    xfailed = len(soup.select("tr.xfailed"))
+    xpassed = len(soup.select("tr.xpassed"))
+
+    total = passed + failed + skipped + error + xfailed + xpassed
+    if total == 0:
+        print("⚠️ Tidak ada test terdeteksi di HTML report.")
+        return
+
+    print(f"✅ Passed : {passed}")
+    print(f"❌ Failed : {failed}")
+    print(f"⚠️ Error  : {error}")
+    print(f"⏭️ Skipped: {skipped}")
+    print(f"🟡 XFailed: {xfailed}")
+    print(f"🟢 XPassed: {xpassed}")
+    print("📊 Validasi HTML report selesai!")
